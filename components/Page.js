@@ -86,8 +86,10 @@ export default function Page({ children }) {
     <div>
       <GlobalStyles />
       {/* <HamburgerMenu /> */}
-      <Nav />
-      <InnerStyles>{children}</InnerStyles>
+      <Nav />{" "}
+      <div id="content-wrap">
+        <InnerStyles>{children}</InnerStyles>
+      </div>
     </div>
   );
 }
