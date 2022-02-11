@@ -1,13 +1,22 @@
-import Link from 'next/link';
+import MainNavStyles from './styles/MainNavStyles';
+import NavLi from './NavLi';
+import HamburgerMenu from "./HamburgerMenu";
 
 
 export default function Nav() {
   return (
-    <nav>
-      <Link href="/products">Products </Link>
-      <Link href="/sell">Sell </Link>
-      <Link href="/orders">Orders </Link>
-      <Link href="/account">Account </Link>
-    </nav>
+    <MainNavStyles>
+      <div id="nav-left">
+        <span id="h1-wrap">
+          <h1>Ashley Kunsa</h1>
+        </span>
+      </div>
+      <div id="nav-right" className="font-2">
+        <NavLi />
+      </div>
+      <div id="hammy-wrap">
+        <HamburgerMenu />
+      </div>
+    </MainNavStyles>
   );
 }
