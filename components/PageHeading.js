@@ -32,15 +32,17 @@ const Heading = styled.h2`
 
 const PageHeading = ({ content, image, top, left }) => {
   return (
-    <PageHeadingWrap1>
+    <PageHeadingWrap1 top={top} left={left}>
       <div id="new-header-2-interior">
         <div id="rotator">
           <img
-            src="../assets/52VintageSunbursts/Black/PNG/Black-14.png"
+            src={`../assets/${image}`}
             alt=""
           />
         </div>
-        <Heading>{content}{top}{left}</Heading>
+        <Heading>
+          {content}
+        </Heading>
       </div>
     </PageHeadingWrap1>
   );
