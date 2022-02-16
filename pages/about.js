@@ -5,7 +5,7 @@ export default function About() {
       content={"About"}
       top={"88px"}
       left={"92px"}
-      image={"52VintageSunbursts/Black/PNG/Black-14.png"}
+      image={"52VintageSunbursts/Black/PNG/Black-04.png"}
     />
   );
 }

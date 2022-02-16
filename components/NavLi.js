@@ -18,7 +18,7 @@ export default function NavLi() {
             <Link href="/misc" className="link-hover">Misc </Link>
           </li>
           <li>
-            <a href="/about#contact" className="link-hover">Contact</a>
+            <a href="/contact" className="link-hover">Contact</a>
           </li>
       </ul>
    
