@@ -1,25 +1,19 @@
  import Link from 'next/link';
+ import navLinks from '../data/navLinks.json'
 
 
 export default function NavLi() {
   return (
- 
-      <ul className="nav-li-insides">
-          <li>
-            <Link href="/about" className="link-hover">About </Link>
+    <ul className="nav-li-insides">
+      {navLinks.map((link) => {
+        let lower = link.name.toLowerCase();
+        return (
+          <li key={link.name}>
+            <Link href={lower}>
+              <a >{link.name}</a>
+            </Link>
           </li>
-          <li>
-            <Link href="/writing" className="link-hover">Writing </Link>
-          </li>
-          <li>
-            <Link href="/teaching" className="link-hover">Teaching </Link>
-          </li>
-          <li>
-            <Link href="/misc" className="link-hover">Misc </Link>
-          </li>
-          <li>
-            <a href="/contact" className="link-hover">Contact</a>
-          </li>
-      </ul>
-   
+        );
+      })}
+    </ul>
   );}

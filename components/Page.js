@@ -1,7 +1,8 @@
 /* eslint-disable react/prop-types */
 import styled, { createGlobalStyle } from "styled-components";
-
 import Nav from "./Nav";
+import Footer from "./Footer";
+
 
 const GlobalStyles = createGlobalStyle`
 html {
@@ -17,6 +18,7 @@ html {
   --black-transparent-2: rgba(5, 5, 5, 0.8);
   --offWhite: #ededed;
   --mauve-1: hsl(15.6, 43.1%, 77.3%, 0.8);
+  --maxWidth: 1200px;
 }
 *::selection {
   background-color: rgb(59, 51, 161);
@@ -24,21 +26,8 @@ html {
 }
 
  
-
+#content-wrap{min-height:100vh;}
  
-  /* html {
-    --red: #ff0000; 
-    --black: #393939;
-    --grey: #3a3a3a;
-    --gray: var(--grey);
-    --lightGrey: #e1e1e1;
-    --lightGray: var(--lightGrey)
-    --offWhite: #ededed;
-    --maxWidth: 1000px;
-    --bs: 0 12px 24px 0 rgba(0,0,0,0.09);
-
-
-  } */
   body {
     font-family: acuta,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0;
@@ -49,11 +38,7 @@ html {
 
   }
   a {color: var(---black);}
-
  
-  
- 
-  
   *, *:before, *:after{
     box-sizing: inherit;
   }
@@ -61,6 +46,7 @@ html {
   font-family: acuta, serif;
   font-weight: 400;
   font-style: normal;
+  color: #111;
 }
 .font-2 {
   font-family: filicudi-solid, sans-serif;
@@ -78,7 +64,7 @@ html {
 const InnerStyles = styled.div`
   max-width: var(--maxWidth);
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1.5rem 2rem;
 `;
 
 export default function Page({ children }) {
@@ -86,10 +72,11 @@ export default function Page({ children }) {
     <div>
       <GlobalStyles />
       {/* <HamburgerMenu /> */}
-      <Nav />{" "}
+      <Nav />
       <div id="content-wrap">
         <InnerStyles>{children}</InnerStyles>
       </div>
+      <Footer/>
     </div>
   );
 }

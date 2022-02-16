@@ -15,7 +15,7 @@ export default function Nav() {
         <NavLi />
       </div>
       <div id="hammy-wrap">
-        <HamburgerMenu />
+        <HamburgerMenu menuStatus={"closed"} />
       </div>
     </MainNavStyles>
   );

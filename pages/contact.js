@@ -3,9 +3,8 @@ export default function Contact() {
   return (
     <PageHeading
       content={"Contact"}
-      top={"88px"}
-      left={"72px"}
-      image={"52VintageSunbursts/Black/PNG/Black-12.png"}
+   
+      image={"/assets/52VintageSunbursts/Black/PNG/Black-12.png"}
     />
   );
 }

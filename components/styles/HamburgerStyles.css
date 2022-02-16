@@ -72,6 +72,9 @@ Note: Beware of modifying this element as it can break the animations - you shou
   font-weight: bold;
   
 }
+.bm-item-list ul li {
+  display: inline-block!important;
+}
 .bm-item-list ul {
   padding-left: 0px;
 }
@@ -109,6 +112,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
   top:0px;
 }
 .nav-li-insides li a::hover, 
-.nav-li-insides li a::focus {
+.nav-li-insides li a::focus, .bm-item-list ul li a::hover, .bm-item-list ul li a::focus {
   text-decoration: underline white!important;
 }
