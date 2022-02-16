@@ -1,0 +1,31 @@
+{
+    "interviews_and_blog_posts": [
+            {
+                "title": "The Shackles of ‘Free’ Writing and Writing Exercises",
+                "url": "http://south85journal.com/2016/05/shackles-of-free-writing/",
+                "pubTitle": "South 85 Journal",
+                "volumeIssue": "",
+                "date": "May 2016",
+                "format": "Web",
+                "forthcoming": false
+            },
+            {
+                "title": "Q&A with Eastern Iowa Review",
+                "url": "http://www.portyonderpress.com/ashley-kunsa-interview.html",
+                "pubTitle": "Eastern Iowa Review",
+                "volumeIssue": "",
+                "date": "May 2016",
+                "format": "Web",
+                "forthcoming": false
+            },
+            {
+                "title": "The Physics of Fiction with Ashley Kunsa",
+                "url": "https://roanoke-review.squarespace.com/interviews-backpage/2015/1/25/ashley-kunsa",
+                "pubTitle": "Roanoke Review",
+                "volumeIssue": "",
+                "date": "Jan. 2015",
+                "format": "Web",
+                "forthcoming": false
+            }
+    ]
+}

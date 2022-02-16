@@ -1,5 +1,4 @@
 import PageHeading from "../components/PageHeading";
-import MainContentArea from "../components/styles/MainContentArea";
 import styled from "styled-components";
 
 let AboutImage = styled.img`
@@ -17,7 +16,7 @@ export default function About() {
         content={"About"}
         image={"/assets/52VintageSunbursts/Black/PNG/Black-04.png"}
       />
-      <MainContentArea>
+      <div>
         <AboutImage
           alt="Ashley Kunsa"
           src="https://wta9-v1.netlify.app/images/Ashley%20K%20headshot.JPG"
@@ -49,7 +48,7 @@ export default function About() {
           A native of southwestern PA, I now live in Billings, MT where I enjoy
           working out, thrift shopping, and home improvement projects.
         </p>
-      </MainContentArea>
+      </div>
     </>
   );
 }

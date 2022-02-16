@@ -25,7 +25,7 @@ html {
   color: white;
 }
 
- 
+.bold {font-weight:bold} 
 #content-wrap{min-height:100vh;}
  
   body {
