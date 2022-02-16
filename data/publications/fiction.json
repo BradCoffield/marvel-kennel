@@ -6,7 +6,9 @@
             "pubTitle": "Forge Literary Magazine",
             "volumeIssue": "",
             "date": "April 9, 2018",
-            "format": "Web"
+            "format": "Web",
+            "featured": false,
+            "forthcoming": false
         },
         {
             "title": "Crossroads",
@@ -15,7 +17,9 @@
             "volumeIssue": "10",
             "date": "Winter 2018",
             "pageRange": "10-11",
-            "format": "Print"
+            "format": "Print",
+            "featured": false,
+            "forthcoming": false
         },
         {
             "title": "Only Breath",
@@ -24,7 +28,9 @@
             "volumeIssue": "10",
             "date": "Winter 2018",
             "pageRange": "12",
-            "format": "Print"
+            "format": "Print",
+            "featured": false,
+            "forthcoming": false
         },
         {
             "title": "Everything, Always, and Still Not Enough",
@@ -33,7 +39,9 @@
             "volumeIssue": "10",
             "date": "Winter 2018",
             "pageRange": "13-14",
-            "format": "Print"
+            "format": "Print",
+            "featured": false,
+            "forthcoming": false
         },
         {
             "title": "Go Hungry",
@@ -42,7 +50,9 @@
             "volumeIssue": "66",
             "date": "Winter 2018",
             "pageRange": "",
-            "format": "Print"
+            "format": "Print",
+            "featured": false,
+            "forthcoming": false
         },
         {
             "title": "Hands Off",
@@ -51,7 +61,9 @@
             "volumeIssue": "50.2",
             "date": "Winter 2018",
             "pageRange": "",
-            "format": "Web"
+            "format": "Web",
+            "featured": false,
+            "forthcoming": false
         },
         {
             "title": "The Red City",
@@ -60,7 +72,9 @@
             "volumeIssue": "",
             "date": "Fall 2017",
             "pageRange": "",
-            "format": "Print"
+            "format": "Print",
+            "featured": false,
+            "forthcoming": false
         },
         {
             "title": "Odd Birds",
@@ -69,7 +83,9 @@
             "volumeIssue": "9",
             "date": "Fall 2017",
             "pageRange": "",
-            "format": "Web"
+            "format": "Web",
+            "featured": false,
+            "forthcoming": false
         },
         {
             "title": "Post Scriptum",
@@ -78,7 +94,9 @@
             "volumeIssue": "6.2",
             "date": "Fall 2017",
             "pageRange": "",
-            "format": "Web"
+            "format": "Web",
+            "featured": false,
+            "forthcoming": false
         },
         {
             "title": "These Women",
@@ -87,7 +105,9 @@
             "volumeIssue": "13",
             "date": "Winter 2017",
             "pageRange": "",
-            "format": "Web"
+            "format": "Web",
+            "featured": false,
+            "forthcoming": false
         },
         {
             "title": "Why You Can't Live Right",
@@ -96,7 +116,9 @@
             "volumeIssue": "9",
             "date": "Spring 2017",
             "pageRange": "",
-            "format": "Web"
+            "format": "Web",
+            "featured": false,
+            "forthcoming": false
         },
         {
             "title": "Secondary Flightlessness",
@@ -105,7 +127,9 @@
             "volumeIssue": "6",
             "date": "Winter 2017",
             "pageRange": "49-50",
-            "format": "Print"
+            "format": "Print",
+            "featured": false,
+            "forthcoming": false
         },
         {
             "title": "Seventh Grade, Winter 2005",
@@ -114,7 +138,9 @@
             "volumeIssue": "49",
             "date": "March 2017",
             "pageRange": "106-07",
-            "format": "Print"
+            "format": "Print",
+            "featured": false,
+            "forthcoming": false
         },
         {
             "title": "Wild Things",
@@ -123,7 +149,9 @@
             "volumeIssue": "",
             "date": "Jan 2017",
             "pageRange": "",
-            "format": "Web"
+            "format": "Web",
+            "featured": false,
+            "forthcoming": false
         },
         {
             "title": "A Woman's Glory",
@@ -132,7 +160,9 @@
             "volumeIssue": "",
             "date": "Jan. 2017",
             "pageRange": "",
-            "format": "Web"
+            "format": "Web",
+            "featured": false,
+            "forthcoming": false
         },
         {
             "title": "Marine Life",
@@ -141,7 +171,9 @@
             "volumeIssue": "5.3",
             "date": "Fall 2016",
             "pageRange": "",
-            "format": "Web"
+            "format": "Web",
+            "featured": false,
+            "forthcoming": false
         },
         {
             "title": "In the Absence of Cats",
@@ -150,7 +182,9 @@
             "volumeIssue": "",
             "date": "Nov. 2016",
             "pageRange": "",
-            "format": "Web"
+            "format": "Web",
+            "featured": false,
+            "forthcoming": false
         },
         {
             "title": "Les Murs Se Resserrent Autour De Vous",
@@ -159,7 +193,9 @@
             "volumeIssue": "3",
             "date": "Summer 2016",
             "pageRange": "53-59",
-            "format": "Print"
+            "format": "Print",
+            "featured": false,
+            "forthcoming": false
         },
         {
             "title": "It's Not about Breastfeeding",
@@ -168,7 +204,9 @@
             "volumeIssue": "9",
             "date": "Mar. 2016",
             "pageRange": "",
-            "format": "Web"
+            "format": "Web",
+            "featured": false,
+            "forthcoming": false
         },
         {
             "title": "Grace",
@@ -177,7 +215,9 @@
             "volumeIssue": "19",
             "date": "Winter 2015",
             "pageRange": "",
-            "format": "Web"
+            "format": "Web",
+            "featured": false,
+            "forthcoming": false
         },
         {
             "title": "The Physics of Grief",
@@ -186,7 +226,9 @@
             "volumeIssue": "36",
             "date": "Spring 2014",
             "pageRange": "11-14",
-            "format": "Print"
+            "format": "Print",
+            "featured": false,
+            "forthcoming": false
         },
         {
             "title": "A Woman's Glory",
@@ -195,7 +237,9 @@
             "volumeIssue": "11.2",
             "date": "Oct. 2011",
             "pageRange": "29-30",
-            "format": "Web"
+            "format": "Web",
+            "featured": false,
+            "forthcoming": false
         }
     ]
 }

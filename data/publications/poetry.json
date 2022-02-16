@@ -7,6 +7,7 @@
             "volumeIssue": "",
             "date": "2020",
             "format": "Web",
+            "featured": false,
             "forthcoming": true
         },
         {
@@ -16,6 +17,7 @@
             "volumeIssue": "41",
             "date": "2020",
             "format": "Web",
+            "featured": false,
             "forthcoming": true
         },
         {
@@ -25,6 +27,7 @@
             "volumeIssue": "4",
             "date": "Summer 2020",
             "format": "Print",
+            "featured": false,
             "forthcoming": true
         },
         {
@@ -34,7 +37,8 @@
             "volumeIssue": "25",
             "date": "2019",
             "format": "Print",
-            "forthcoming": false
+            "featured": false,
+            "forthcoming": true
         },
         {
             "title": "Standing in the Garden of Myself, Barefoot",
@@ -43,7 +47,8 @@
             "volumeIssue": "15",
             "date": "2018",
             "format": "Web",
-            "forthcoming": false
+            "featured": false,
+            "forthcoming": true
         },
         {
             "title": "Poem Beginning with Scales",
@@ -52,7 +57,8 @@
             "volumeIssue": "3.2",
             "date": "April 2018",
             "format": "Web",
-            "forthcoming": false
+            "featured": false,
+            "forthcoming": true
         },
         {
             "title": "Poem Beginning with a Corset",
@@ -61,7 +67,8 @@
             "volumeIssue": "3.2",
             "date": "April 2018",
             "format": "Web",
-            "forthcoming": false
+            "featured": false,
+            "forthcoming": true
         },
         {
             "title": "Beginning at the Golden Panda",
@@ -70,7 +77,8 @@
             "volumeIssue": "",
             "date": "Fall 2017",
             "format": "Web",
-            "forthcoming": false
+            "featured": false,
+            "forthcoming": true
         },
         {
             "title": "Standing in the Pantry of Myself, Gluten-Intolerant and Jonesing for Brownies",
@@ -79,7 +87,8 @@
             "volumeIssue": "",
             "date": "Fall 2017",
             "format": "Web",
-            "forthcoming": false
+            "featured": false,
+            "forthcoming": true
         },
         {
             "title": "Signs Seen Driving Past a Baptist Church in Rural PA",
@@ -88,7 +97,8 @@
             "volumeIssue": "Web Feature",
             "date": "June 2017",
             "format": "Web",
-            "forthcoming": false
+            "featured": false,
+            "forthcoming": true
         },
         {
             "title": "Metamorphic",
@@ -97,7 +107,8 @@
             "volumeIssue": "Web Feature",
             "date": "June 2017",
             "format": "Web",
-            "forthcoming": false
+            "featured": false,
+            "forthcoming": true
         },
         {
             "title": "Standing in the Garden of Myself Where My Lover Misplaced a Rusting Trowel",
@@ -106,7 +117,8 @@
             "volumeIssue": "Web Feature",
             "date": "June 2017",
             "format": "Web",
-            "forthcoming": false
+            "featured": false,
+            "forthcoming": true
         },
         {
             "title": "at Mendocino",
@@ -115,7 +127,8 @@
             "volumeIssue": "2.3",
             "date": "July 23, 2017",
             "format": "Web",
-            "forthcoming": false
+            "featured": false,
+            "forthcoming": true
         },
         {
             "title": "In the Morning after a Storm That Takes Down Three Oaks in the Backyard",
@@ -124,7 +137,8 @@
             "volumeIssue": "45.1",
             "date": "2017",
             "format": "Print",
-            "forthcoming": false
+            "featured": false,
+            "forthcoming": true
         },
         {
             "title": "Staretz",
@@ -133,7 +147,8 @@
             "volumeIssue": "35",
             "date": "Dec. 2016",
             "format": "Web",
-            "forthcoming": false
+            "featured": false,
+            "forthcoming": true
         },
         {
             "title": "the feminist at her ultrasound, december 2011",
@@ -142,7 +157,8 @@
             "volumeIssue": "8",
             "date": "Sept. 2016",
             "format": "Web",
-            "forthcoming": false
+            "featured": false,
+            "forthcoming": true
         },
         {
             "title": "After Domestic Dispute #12",
@@ -151,7 +167,8 @@
             "volumeIssue": "8",
             "date": "Sept. 2016",
             "format": "Web",
-            "forthcoming": false
+            "featured": false,
+            "forthcoming": true
         },
         {
             "title": "Pantoum for Mother and Child",
@@ -160,7 +177,8 @@
             "volumeIssue": "",
             "date": "Dec. 2014",
             "format": "Web",
-            "forthcoming": false
+            "featured": false,
+            "forthcoming": true
         },
         {
             "title": "On the Day James Foley is Beheaded",
@@ -169,7 +187,8 @@
             "volumeIssue": "",
             "date": "Dec. 2014",
             "format": "Web",
-            "forthcoming": false
+            "featured": false,
+            "forthcoming": true
         }
     ]
 }
