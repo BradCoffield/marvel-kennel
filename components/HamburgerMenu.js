@@ -32,25 +32,7 @@ export default function HamburgerMenu() {
           );
         })}
       </ul>
-      {/* <ul className="nav-li-insides">
-        <li>
-          <Link href="/about">
-            <a onClick={() => handleCloseMenu()}>About</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/writing"><a onClick={() => handleCloseMenu()}>Writing</a></Link>
-        </li>
-        <li>
-          <Link href="/teaching"><a onClick={() => handleCloseMenu()}>Teaching</a></Link>
-        </li>
-        <li>
-          <Link href="/misc"><a onClick={() => handleCloseMenu()}>Misc</a></Link>
-        </li>
-        <li>
-          <Link href="/contact"><a onClick={() => handleCloseMenu()}>Contact</a></Link>
-        </li>
-      </ul> */}
+ 
     </Menu>
   );
 }

@@ -1,3 +1,26 @@
 {
-    "scholarly": []
+    "scholarly": [
+            {
+                "title": "History, Hair, and Reimagining Racial Categories in Junot Díaz’s The Brief Wondrous Life of Oscar Wao.",
+                "url": "http://www.tandfonline.com/doi/abs/10.1080/00111619.2011.574747#.Uu2v2D2wJOR",
+                "pubTitle": "Critique: Studies in Contemporary Fiction",
+                "volumeIssue": "54.2",
+                "date": "2013",
+                "pages": "211–24",
+                "format": "Print",
+                "featured": false,
+                "forthcoming": false
+            },
+            {
+            "title": "Maps of the World in Its Becoming’: Post-Apocalyptic Naming in Cormac McCarthy’s The Road.",
+            "url": "http://muse.jhu.edu/journals/journal_of_modern_literature/summary/v033/33.1.kunsa.html",
+            "pubTitle": "Journal of Modern Literature",
+            "volumeIssue": "33.1",
+            "date": "2009",
+            "pages": "57–74",
+            "format": "Print",
+            "featured": false,
+            "forthcoming": false
+            }
+    ]
 }

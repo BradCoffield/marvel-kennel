@@ -7,7 +7,7 @@
             "volumeIssue": "",
             "date": "April 9, 2018",
             "format": "Web",
-            "featured": false,
+            "featured": true,
             "forthcoming": false
         },
         {
@@ -51,7 +51,7 @@
             "date": "Winter 2018",
             "pageRange": "",
             "format": "Print",
-            "featured": false,
+            "featured": true,
             "forthcoming": false
         },
         {
@@ -73,7 +73,7 @@
             "date": "Fall 2017",
             "pageRange": "",
             "format": "Print",
-            "featured": false,
+            "featured": true,
             "forthcoming": false
         },
         {
