@@ -90,40 +90,16 @@ export default function AllWriting() {
       white-space: nowrap;
     }
   `;
-  let allPubsArr = [];
-  let featuredPubsArr = [];
-  let nonFeaturedPubsArr = [];
 
-  const combineAllPubs = () => {
-    // allPubsArr.push(FictionPubs.fiction)
-    // allPubsArr.push(PoetryPubs.poetry)
-    // allPubsArr.push(ScholarlyPubs.scholarly)
-    FictionPubs.fiction.forEach((p) => {
-      allPubsArr.push(p);
+  let combinePubs = (...args) => {
+    let arrayToReturn = [];
+    args.forEach((i) => {
+      i.forEach((p) => {
+        arrayToReturn.push(p);
+      });
     });
-    PoetryPubs.poetry.forEach((p) => {
-      allPubsArr.push(p);
-    });
-    ScholarlyPubs.scholarly.forEach((p) => {
-      allPubsArr.push(p);
-    });
-    featuredPubsArr = allPubsArr.filter((pub) => pub.featured);
-    nonFeaturedPubsArr = allPubsArr.filter((pub) => !pub.featured);
-    // console.log(allPubsArr);
-    // console.log(featuredPubsArr);
-    // console.log(nonFeaturedPubsArr);
+    return arrayToReturn;
   };
-  combineAllPubs();
-
-  /* Trying it manually */
-
-  const listOfPubsWithMultipleThings = [
-    "Sonder Review",
-    "Beech Street Review",
-    "Thin Air Magazine",
-    "Yellow Chair Review",
-    "Lehigh Valley Vanguard",
-  ];
 
   const duplicateFixerUpper = (
     mainArray,
@@ -132,62 +108,60 @@ export default function AllWriting() {
   ) => {
     let tempAllPubsArr = [];
     // This object does a few things for us. It's what we will use later to get the information desired on the screen (so, title, pubtitle, and url) but also we track how many of this publication there are and the first location of it in the original array.
-    let tempObj = { 
+    let tempObj = {
       title: "",
       pubTitle: publicationTitle,
       url: "",
       count: 0,
       genre: publicationGenre,
-      firstIndex: 0
+      firstIndex: 0,
     };
     mainArray.forEach((i, index) => {
       if (i.pubTitle == publicationTitle) {
-        console.log("got one!", index);
+        // console.log("got one!", index);
         tempObj.count++; //tracking how many of this publication we have in total
         tempObj.url = i.url; //presumes the url will be the same for each one
-        if (tempObj.firstIndex == 0){tempObj.firstIndex += index} //snags the index of the first instance in the master array
+        if (tempObj.firstIndex == 0) {
+          tempObj.firstIndex += index;
+        } //snags the index of the first instance in the master array
       } else {
         tempAllPubsArr.push(i); // if it isn't a publiction of the one we are looking for we just put it into the new array untouched
       }
     });
     //conditionals to know whether to say stories or poems
     if (publicationGenre == "fiction") {
-      tempObj.title = `${tempObj.count} stories`;
+      tempObj.title = `${tempObj.count} Stories`;
     }
     if (publicationGenre == "poetry") {
-      tempObj.title = `${tempObj.count} poems`;
+      tempObj.title = `${tempObj.count} Poems`;
     }
- tempAllPubsArr.splice(tempObj.firstIndex, 0, tempObj); //this inserts our new object at the first index we took from roughly preserving overall ordering
-    console.log(tempAllPubsArr);
-    return tempAllPubsArr
+    tempAllPubsArr.splice(tempObj.firstIndex, 0, tempObj); //this inserts our new object at the first index we took from roughly preserving overall ordering
+    // console.log(tempAllPubsArr);
+    return tempAllPubsArr;
   };
-  let test1 = duplicateFixerUpper(allPubsArr, "Sonder Review", "fiction");
-  console.log(test1)
 
-  /* Attempts one through ninety-two  */
+  const listOfPubsWithMultipleThings = [
+    { title: "Sonder Review", genre: "fiction" },
+    { title: "Beech Street Review", genre: "poetry" },
+    { title: "Thin Air Magazine", genre: "poetry" },
+    { title: "Yellow Chair Review", genre: "poetry" },
+    { title: "Lehigh Valley Vanguard", genre: "poetry" },
+  ];
 
-  // const testFindDupes = (arrayOfPublications) => {
-  //   let tempArr = [];
+  let allPubsCombined = combinePubs(
+    FictionPubs.fiction,
+    PoetryPubs.poetry,
+    ScholarlyPubs.scholarly
+  );
 
-  //   arrayOfPublications.forEach((item) => {
-  //     let dupes = arrayOfPublications.filter((j) => {
-  //       return j.pubTitle == item.pubTitle;
-  //     });
-  //     if (dupes.length > 1) {
-  //       tempArr.push(dupes);
-  //     }
-  //     console.log("dupers", dupes);
-  //   });
-  //   console.log("TMEPARR", tempArr);
-  //   return tempArr;
-  // };
-  // let dupeFiction = testFindDupes(FictionPubs.fiction);
-  // console.log(dupeFiction, "ehhhh");
 
-  // /* LODASH */
+  let test1 = duplicateFixerUpper(allPubsCombined, "Sonder Review", "fiction");
+  let allPubsDeduped = listOfPubsWithMultipleThings.forEach
 
-  // let diggity = _.uniqBy(allPubsArr, "pubTitle");
-  // console.log("gigg", diggity);
+
+  let featuredPubsArr = allPubsCombined.filter((pub) => pub.featured);
+  let nonFeaturedPubsArr = allPubsCombined.filter((pub) => !pub.featured);
+
 
   return (
     <>
