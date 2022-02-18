@@ -140,6 +140,12 @@ export default function AllWriting() {
     return tempAllPubsArr;
   };
 
+  let allPubsCombined = combinePubs(
+    FictionPubs.fiction,
+    PoetryPubs.poetry,
+    ScholarlyPubs.scholarly
+  );
+
   const listOfPubsWithMultipleThings = [
     { title: "Sonder Review", genre: "fiction" },
     { title: "Beech Street Review", genre: "poetry" },
@@ -148,20 +154,26 @@ export default function AllWriting() {
     { title: "Lehigh Valley Vanguard", genre: "poetry" },
   ];
 
-  let allPubsCombined = combinePubs(
-    FictionPubs.fiction,
-    PoetryPubs.poetry,
-    ScholarlyPubs.scholarly
-  );
+  /* 
+  Yeah, I needed recursion for this... but this works.
+  Each one takes the prior one as its source so that the deduping builds on each other.
+  Will have to manually add new pubs to the listofpubswithmultiplethings above and then add lines below
+  
+  */
 
+  let dedupe0 = duplicateFixerUpper(allPubsCombined, listOfPubsWithMultipleThings[0].title, listOfPubsWithMultipleThings[0].genre )
+  let dedupe1 = duplicateFixerUpper(dedupe0, listOfPubsWithMultipleThings[1].title, listOfPubsWithMultipleThings[1].genre )
+  let dedupe2 = duplicateFixerUpper(dedupe1, listOfPubsWithMultipleThings[2].title, listOfPubsWithMultipleThings[2].genre )
+  let dedupe3 = duplicateFixerUpper(dedupe2, listOfPubsWithMultipleThings[3].title, listOfPubsWithMultipleThings[3].genre )
+  let dedupe4 = duplicateFixerUpper(dedupe3, listOfPubsWithMultipleThings[4].title, listOfPubsWithMultipleThings[4].genre )
 
-  let test1 = duplicateFixerUpper(allPubsCombined, "Sonder Review", "fiction");
-  let allPubsDeduped = listOfPubsWithMultipleThings.forEach
+ 
+  
+   
+ 
 
-
-  let featuredPubsArr = allPubsCombined.filter((pub) => pub.featured);
-  let nonFeaturedPubsArr = allPubsCombined.filter((pub) => !pub.featured);
-
+  let featuredPubsArr = dedupe4.filter((pub) => pub.featured);
+  let nonFeaturedPubsArr = dedupe4.filter((pub) => !pub.featured);
 
   return (
     <>
