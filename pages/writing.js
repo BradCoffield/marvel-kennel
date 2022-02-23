@@ -34,10 +34,11 @@ export default function AllWriting() {
     text-align: center;
     padding: 0px;
     margin: 0px;
-
+   
     .box {
       position: relative;
       min-width: 140px;
+      z-index: 0;
     }
     .title1,
     .title2 {
@@ -161,16 +162,31 @@ export default function AllWriting() {
   
   */
 
-  let dedupe0 = duplicateFixerUpper(allPubsCombined, listOfPubsWithMultipleThings[0].title, listOfPubsWithMultipleThings[0].genre )
-  let dedupe1 = duplicateFixerUpper(dedupe0, listOfPubsWithMultipleThings[1].title, listOfPubsWithMultipleThings[1].genre )
-  let dedupe2 = duplicateFixerUpper(dedupe1, listOfPubsWithMultipleThings[2].title, listOfPubsWithMultipleThings[2].genre )
-  let dedupe3 = duplicateFixerUpper(dedupe2, listOfPubsWithMultipleThings[3].title, listOfPubsWithMultipleThings[3].genre )
-  let dedupe4 = duplicateFixerUpper(dedupe3, listOfPubsWithMultipleThings[4].title, listOfPubsWithMultipleThings[4].genre )
-
- 
-  
-   
- 
+  let dedupe0 = duplicateFixerUpper(
+    allPubsCombined,
+    listOfPubsWithMultipleThings[0].title,
+    listOfPubsWithMultipleThings[0].genre
+  );
+  let dedupe1 = duplicateFixerUpper(
+    dedupe0,
+    listOfPubsWithMultipleThings[1].title,
+    listOfPubsWithMultipleThings[1].genre
+  );
+  let dedupe2 = duplicateFixerUpper(
+    dedupe1,
+    listOfPubsWithMultipleThings[2].title,
+    listOfPubsWithMultipleThings[2].genre
+  );
+  let dedupe3 = duplicateFixerUpper(
+    dedupe2,
+    listOfPubsWithMultipleThings[3].title,
+    listOfPubsWithMultipleThings[3].genre
+  );
+  let dedupe4 = duplicateFixerUpper(
+    dedupe3,
+    listOfPubsWithMultipleThings[4].title,
+    listOfPubsWithMultipleThings[4].genre
+  );
 
   let featuredPubsArr = dedupe4.filter((pub) => pub.featured);
   let nonFeaturedPubsArr = dedupe4.filter((pub) => !pub.featured);

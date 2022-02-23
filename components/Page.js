@@ -18,7 +18,7 @@ html {
   --black-transparent-2: rgba(5, 5, 5, 0.8);
   --offWhite: #ededed;
   --mauve-1: hsl(15.6, 43.1%, 77.3%, 0.8);
-  --maxWidth: 1200px;
+  --maxWidth: 1040px;
 }
 *::selection {
   background-color: rgb(59, 51, 161);
@@ -32,7 +32,7 @@ html {
     font-family: acuta,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0;
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 2;
       background-color: var(--mauve-1);
 

@@ -20,34 +20,20 @@ export default function About() {
         <AboutImage
           alt="Ashley Kunsa"
           src="https://wta9-v1.netlify.app/images/Ashley%20K%20headshot.JPG"
-        
         />
         <p>
-          I hold a PhD in English literature from Duquesne University, where I
-          taught courses in American literature, creative writing, and
-          composition and served as the Assistant Director of the Writing
-          Center. In 2009 I earned an MFA in fiction from Penn State University
-          and in 2004 a BA in English writing and history from the University of
-          Pittsburgh. I'm currently Assistant Professor of Creative Writing at
-          Rocky Mountain College.
+          Ashley Kunsa is a writer, teacher, and Pittsburgh native whose poetry,
+          short fiction, and nonfiction can be found in a variety of print and
+          online publications including The Writer magazine, Blue Mesa Review,
+          Bennington Review, and The Forge. Her work has received prizes from
+          the A Room of Her Own Foundation and Eastern Iowa Review. She holds an
+          MFA from Penn State University and a PhD from Duquesne University and
+          is currently assistant professor of creative writing at Rocky Mountain
+          College in Billings, MT.
         </p>
 
-        <p>
-          My training as a creative writer informs my critical attention to
-          literary form and narrative theory as well as my pedagogical approach
-          to texts both literary and nonliterary. My recent critical work
-          considers post-9/11 American war fiction by Ben Fountain, Phil Klay,
-          and David Abrams in the context of government, military, and media
-          discourses about the Iraq War and the ever-evolving legacy of the
-          Vietnam War. I also study U.S. poetry, drama, and fiction from
-          throughout the twentieth century as well as post-WWII British fiction
-          and poetry.
-        </p>
-
-        <p>
-          A native of southwestern PA, I now live in Billings, MT where I enjoy
-          working out, thrift shopping, and home improvement projects.
-        </p>
+    
+ 
       </div>
     </>
   );
