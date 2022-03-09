@@ -22,18 +22,18 @@ export default function About() {
           src="https://wta9-v1.netlify.app/images/Ashley%20K%20headshot.JPG"
         />
         <p>
-          Ashley Kunsa is a writer, teacher, and Pittsburgh native whose poetry,
-          short fiction, and nonfiction can be found in a variety of print and
-          online publications including The Writer magazine, Blue Mesa Review,
-          Bennington Review, and The Forge. Her work has received prizes from
-          the A Room of Her Own Foundation and Eastern Iowa Review. She holds an
-          MFA from Penn State University and a PhD from Duquesne University and
-          is currently assistant professor of creative writing at Rocky Mountain
-          College in Billings, MT.
+          Ashley Kunsa is a writer, teacher, and Pittsburgh native. Her poetry,
+          short fiction, and nonfiction can be found or is forthcoming in a
+          variety of print and online publications including <em>Bennington Review</em>,
+          <em>The Forge</em>, <em>Cream City Review</em>, and <em>The Writer Magazine</em>. Her work has
+          received prizes from the A Room of Her Own Foundation and <em>
+            Eastern Iowa
+            Review
+          </em>. She holds an MFA from Penn State University and a PhD from
+          Duquesne University and is currently assistant professor of creative
+          writing at Rocky Mountain College in Billings, MT, where she lives
+          with her husband and two children.
         </p>
-
-    
- 
       </div>
     </>
   );

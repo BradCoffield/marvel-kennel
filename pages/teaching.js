@@ -15,18 +15,9 @@ export default function Teaching() {
           her students’ intellectual curiosity and willingness to take risks and
           to create a space where all members of the classroom community feel
           supported as they engage in the process of making meaning and
-          discovering their voices.
-        </p>
-        <p>
-          Ashley serves as faculty advisor for The Rocky Mountain Review student
-          journal, now in its fourth year. She also runs The Reading Series @
-          RMC, which brings local and regional writers to campus; past events
-          have featured Lowell Jaeger, David Abrams, and Tami Haaland.
-          Additionally, Ashley hosts the Writers-in-Progress reading series,
-          during which creative writing capstone students present their work to
-          the public, and her students have published work from her courses in
-          Montana Quarterly, Allegheny Review, Pithead Chapel, and numerous
-          other venues.
+          discovering their voices. Her students have published work from her
+          courses in <em>Montana Quarterly</em>, <em>Allegheny Review</em>,{" "}
+          <em>Pithead Chapel</em>, and numerous other venues.
         </p>
         <p>
           In addition to her work at the college level, Ashley has considerable
