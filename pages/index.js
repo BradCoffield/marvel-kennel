@@ -20,11 +20,13 @@ let AboutImage = styled.img`
 export default function About() {
   return (
     <>
-      <PageHeading
+      {/* <PageHeading
         content={"About"}
         image={"/assets/52VintageSunbursts/Black/PNG/Black-04.png"}
-      />
-      <div>
+      /> */}
+      <div >
+        <br />
+        <br />
         <AboutImage
           alt="Ashley Kunsa"
           src="https://wta9-v1.netlify.app/images/Ashley%20K%20headshot.JPG"

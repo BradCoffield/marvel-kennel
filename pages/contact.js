@@ -3,33 +3,42 @@ import PageHeading from "../components/PageHeading";
 import styled from "styled-components"
 
 let Formwrap = styled.div`
- 
-    width: 550px;
-    background: transparent;
-    padding: 50px 0px 160px 0px;
- margin: auto;
- .form-unit{
-   background-color: green;
-   max-width: 90%;
-   padding:2rem;
-   display: flex;
-   flex-direction: column;
+  width: 550px;
+  background: transparent;
+  /* padding: 50px 0px 160px 0px; */
+  margin: auto;
+  background-color: #9a8e8c;
+  border-radius: 15px;
+  box-shadow: 0px 0px 1px gray;
+  .form-unit {
+    max-width: 90%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 15px; */
+    /* box-shadow: 1px 1px 5px ; */
 
-   input {
-     height:38px;
-     border-radius: 5px;
-     border:0px;
-   }
-   .errorMessage{
-     text-transform: uppercase;
-     font-size: .8em;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     color: red;
-
-   }
-   
- }
-
+    input {
+      height: 38px;
+      border-radius: 5px;
+      border: 0px;
+      max-width: 90%;
+      font-size: 16px;
+    }
+    textarea {
+      border-radius: 5px;
+      border: 0px;
+      max-width: 90%;
+      font-size: 16px;
+      height: 100px;
+    }
+    .errorMessage {
+      text-transform: uppercase;
+      font-size: 0.8em;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: white;
+    }
+  }
 `;
 
 export default function Contact() {
