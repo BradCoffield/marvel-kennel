@@ -3,7 +3,7 @@ import PageHeading from "../components/PageHeading";
 import styled from "styled-components"
 
 let Formwrap = styled.div`
-  width: 550px;
+  // width: 550px;
   padding-bottom: 3rem;
   background: transparent;
   /* padding: 50px 0px 160px 0px; */
@@ -12,8 +12,8 @@ let Formwrap = styled.div`
   border-radius: 15px;
   box-shadow: 0px 0px 1px gray;
   .form-unit {
-    max-width: 90%;
-    padding: 2rem;
+    // max-width: 90%;
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
     /* border-radius: 15px; */
@@ -23,13 +23,13 @@ let Formwrap = styled.div`
       height: 38px;
       border-radius: 5px;
       border: 0px;
-      max-width: 90%;
+      // max-width: 90%;
       font-size: 16px;
     }
     textarea {
       border-radius: 5px;
       border: 0px;
-      max-width: 90%;
+      // max-width: 90%;
       font-size: 16px;
       height: 100px;
     }

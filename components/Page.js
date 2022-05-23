@@ -67,12 +67,12 @@ text-decoration: none;
         padding: 15px;
         border-radius: 20px;
         display: block;
-        margin: 0 auto 1rem;
+        margin: .5rem auto 1rem;
         width: 50%;
         box-shadow: 0px 0px 15px #333;
     
     }
-     #submit-button:hover {background: var(--teal-1);box-shadow:0px 0px 0px #111;cursor:pointer;}
+     #submit-button:hover {background: var(--teal-1);box-shadow:0px 0px 0px #111;cursor:pointer;margin-top:.5rem;}
      .hanging-indent {text-indent: -1.5em;
  list-style-type:none;}
       .hanging-indent-ul {margin-left:0rem; li{margin-bottom: 1.5rem;}}
