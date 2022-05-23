@@ -3,7 +3,6 @@ import styled, { createGlobalStyle } from "styled-components";
 import Nav from "./Nav";
 import Footer from "./Footer";
 
-
 const GlobalStyles = createGlobalStyle`
 html {
   --lightGray: #e1e1e1;
@@ -61,6 +60,22 @@ html {
 #h1-wrap a{
 text-decoration: none;
 }
+  #submit-button {
+ 
+        background: white;
+        border: 0px;
+        padding: 15px;
+        border-radius: 20px;
+        display: block;
+        margin: 0 auto 1rem;
+        width: 50%;
+        box-shadow: 0px 0px 15px #333;
+    
+    }
+     #submit-button:hover {background: var(--teal-1);box-shadow:0px 0px 0px #111;cursor:pointer;}
+     .hanging-indent {text-indent: -1.5em;
+ list-style-type:none;}
+      .hanging-indent-ul {margin-left:0rem; li{margin-bottom: 1.5rem;}}
 
 `;
 
@@ -79,7 +94,7 @@ export default function Page({ children }) {
       <div id="content-wrap">
         <InnerStyles>{children}</InnerStyles>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

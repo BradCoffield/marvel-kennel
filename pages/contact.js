@@ -4,6 +4,7 @@ import styled from "styled-components"
 
 let Formwrap = styled.div`
   width: 550px;
+  padding-bottom: 3rem;
   background: transparent;
   /* padding: 50px 0px 160px 0px; */
   margin: auto;
@@ -38,6 +39,7 @@ let Formwrap = styled.div`
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       color: white;
     }
+  
   }
 `;
 
@@ -99,7 +101,7 @@ export default function Contact() {
                 <Field name="message" component="textarea" />
               </div>
               {/* <ErrorMessage name="message" /> */}
-              <button type="submit">Send</button>
+              <button type="submit" id="submit-button">Send</button>
             </Form>
           </Formwrap>
         )}
