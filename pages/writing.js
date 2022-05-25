@@ -21,8 +21,11 @@ import styled from "styled-components";
 
 export default function Writing() {
   const PubsUlSimpleList = styled.ul`
-  li {list-style-type:none;margin-bottom:1.5rem;}
-  `
+    li {
+      list-style-type: none;
+      margin-bottom: 1.5rem;
+    }
+  `;
   const PubsUl = styled.ul`
     text-align: center;
 
@@ -71,7 +74,11 @@ export default function Writing() {
       white-space: nowrap;
     }
   `;
-
+  console.log(FictionPubs, "eyyyyyyyyy");
+  let selectedFiction = FictionPubs.fiction.filter((pub) => pub.featured);
+  let selectedPoetry = PoetryPubs.poetry.filter((pub) => pub.featured);
+  console.log(selectedFiction, "EAYAHD");
+  console.log(selectedPoetry, "poasdf");
   return (
     <>
       <PageHeading
@@ -81,26 +88,34 @@ export default function Writing() {
       <div>
         <h2>Selected Poetry</h2>
         <PubsUlSimpleList>
-          {PoetryPubs.poetry.map((pub) => {
+          {selectedPoetry.map((pub) => {
             let title = pub.title;
             let pubTitle = pub.pubTitle;
 
+            // let linkString = `<Link href="${pub.url}">`;
+
+            /* Dealing with the variability of URL existence */
             let wantUnderline = true;
             let doWeHaveUrl = true;
-            // let isItForthcoming = false;
-            let linkString = `<Link href="${pub.url}">`;
             if (pub.url == "" || pub.url == null || pub.url == undefined) {
               wantUnderline = false;
               doWeHaveUrl = false;
             }
+
+            let additionalNote = "";
+            if (pub.additionalNote) {
+              additionalNote = `(${pub.additionalNote})`;
+            }
+
+            /* Do we want to include forthcoming? */
             let forthcomingText = "";
             if (pub.forthcoming) {
-              forthcomingText = "Forthcoming.";
+              forthcomingText = `(forthcoming)`;
             }
             return (
               <>
                 <li className="box" key={pub.title}>
-                  {
+                 "{
                     //Check if message failed
                     doWeHaveUrl ? (
                       <Link href={pub.url}>
@@ -110,8 +125,8 @@ export default function Writing() {
                             wantUnderline ? "yesUnderline" : "noUnderline"
                           }`}
                         >
-                          "{title}"
-                          {/* <span className="nowrap bold title1">{pubTitle}</span> */}
+                          {title}
+                         
                         </a>
                       </Link>
                     ) : (
@@ -120,13 +135,11 @@ export default function Writing() {
                           wantUnderline ? "yesUnderline" : "noUnderline"
                         }`}
                       >
-                        "{title}"
-                        {/* <span className="nowrap bold title1">{pubTitle}</span> */}
+                        {title}
+                       
                       </a>
                     )
-                  }
-                  &nbsp;<em>{pubTitle}</em> {pub.volumeIssue} ({pub.date}).{" "}
-                  {pub.format}. {forthcomingText}
+                  }"&nbsp;<em>{pubTitle}</em> {forthcomingText}
                 </li>
               </>
             );
@@ -134,26 +147,34 @@ export default function Writing() {
         </PubsUlSimpleList>
         <h2>Selected Fiction</h2>
         <PubsUlSimpleList>
-          {FictionPubs.fiction.map((pub) => {
+          {selectedFiction.map((pub) => {
             let title = pub.title;
             let pubTitle = pub.pubTitle;
 
+            // let linkString = `<Link href="${pub.url}">`;
+
+            /* Dealing with the variability of URL existence */
             let wantUnderline = true;
             let doWeHaveUrl = true;
-            // let isItForthcoming = false;
-            let linkString = `<Link href="${pub.url}">`;
             if (pub.url == "" || pub.url == null || pub.url == undefined) {
               wantUnderline = false;
               doWeHaveUrl = false;
             }
+
+            let additionalNote = "";
+            if (pub.additionalNote) {
+              additionalNote = `(${pub.additionalNote})`;
+            }
+
+            /* Do we want to include forthcoming? */
             let forthcomingText = "";
             if (pub.forthcoming) {
-              forthcomingText = "Forthcoming.";
+              forthcomingText = `(forthcoming)`;
             }
             return (
               <>
                 <li className="box" key={pub.title}>
-                  {
+                  "{
                     //Check if message failed
                     doWeHaveUrl ? (
                       <Link href={pub.url}>
@@ -163,7 +184,7 @@ export default function Writing() {
                             wantUnderline ? "yesUnderline" : "noUnderline"
                           }`}
                         >
-                          "{title}"
+                          {title}
                           {/* <span className="nowrap bold title1">{pubTitle}</span> */}
                         </a>
                       </Link>
@@ -173,13 +194,12 @@ export default function Writing() {
                           wantUnderline ? "yesUnderline" : "noUnderline"
                         }`}
                       >
-                        "{title}"
+                        {title}
                         {/* <span className="nowrap bold title1">{pubTitle}</span> */}
                       </a>
                     )
-                  }
-                  &nbsp;<em>{pubTitle}</em> {pub.volumeIssue} ({pub.date}).{" "}
-                  {pub.format}. {forthcomingText}
+                  }"&nbsp;in <em>{pubTitle}</em> {additionalNote}
+                  {forthcomingText}
                 </li>
               </>
             );

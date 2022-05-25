@@ -1,5 +1,106 @@
 {
     "poetry": [
+            {
+                "title": "Declaration",
+                "url": "",
+                "pubTitle": "Bennington Review",
+                "volumeIssue": "",
+                "date": "",
+                "format": "",
+                "featured": true,
+                "forthcoming": true
+            },    
+            {
+                "title": "The New Manifest Destiny",
+                "url": "",
+                "pubTitle": "Lake Effect",
+                "volumeIssue": "",
+                "date": "",
+                "format": "",
+                "featured": true,
+                "forthcoming": true
+            },    
+            {
+                "title": "Ask Me about Things There Are No Answers for",
+                "url": "",
+                "pubTitle": "Tusculum Review",
+                "volumeIssue": "",
+                "date": "",
+                "format": "",
+                "featured": true,
+                "forthcoming": true
+            },    
+            {
+                "title": "It’s Never Just a Snake",
+                "url": "",
+                "pubTitle": "Massachusetts Review",
+                "volumeIssue": "",
+                "date": "",
+                "format": "",
+                "featured": true,
+                "forthcoming": true
+            },    
+            {
+                "title": "Clinging to the Dream, I Pretended Not to Notice the Baby’s Cry",
+                "url": "",
+                "pubTitle": "Dialogist",
+                "volumeIssue": "",
+                "date": "",
+                "format": "",
+                "featured": true,
+                "forthcoming": true
+            },    
+            {
+                "title": "I Need Her on Her Knees",
+                "url": "",
+                "pubTitle": "Southern Humanities Review",
+                "volumeIssue": "",
+                "date": "",
+                "format": "",
+                "featured": true,
+                "forthcoming": true
+            },    
+            {
+                "title": "From Which the Body",
+                "url": "",
+                "pubTitle": "Cream City Review",
+                "volumeIssue": "",
+                "date": "",
+                "format": "",
+                "featured": true,
+                "forthcoming": true
+            },    
+            {
+                "title": "After the Garden",
+                "url": "",
+                "pubTitle": "Radar Poetry",
+                "volumeIssue": "",
+                "date": "",
+                "format": "",
+                "featured": true,
+                "forthcoming": true
+            },    
+            {
+                "title": "White Dwarf",
+                "url": "",
+                "pubTitle": "Lily Poetry Review",
+                "volumeIssue": "",
+                "date": "",
+                "format": "",
+                "featured": true,
+                "forthcoming": false
+            },    
+            {
+                "title": "Poem Beginning Lost in the Forest",
+                "url": "http://www.juked.com/2020/12/ashley-kunsa-poem-beginning-lost-in-the-forest.asp",
+                "pubTitle": "juked",
+                "volumeIssue": "",
+                "date": "",
+                "format": "",
+                "featured": true,
+                "forthcoming": false
+            },    
+     
         {
             "title": "Poem Beginning in Whispered Prayer",
             "url": "",
@@ -8,17 +109,17 @@
             "date": "2020",
             "format": "Web",
             "featured": false,
-            "forthcoming": true
+            "forthcoming": false
         },
         {
             "title": "Emergency C-Section with Partial Hindsight",
-            "url": "",
+            "url": "https://issuu.com/bluemesareview/docs/blue_mesa_review_issue_41",
             "pubTitle": "Blue Mesa Review",
             "volumeIssue": "41",
             "date": "2020",
             "format": "Web",
-            "featured": false,
-            "forthcoming": true
+            "featured": true,
+            "forthcoming": false
         },
         {
             "title": "White Dwarf",
@@ -28,7 +129,7 @@
             "date": "Summer 2020",
             "format": "Print",
             "featured": false,
-            "forthcoming": true
+            "forthcoming": false
         },
         {
             "title": "Coruscant",
@@ -37,8 +138,8 @@
             "volumeIssue": "25",
             "date": "2019",
             "format": "Print",
-            "featured": false,
-            "forthcoming": true
+            "featured": true,
+            "forthcoming": false
         },
         {
             "title": "Standing in the Garden of Myself, Barefoot",
@@ -48,7 +149,7 @@
             "date": "2018",
             "format": "Web",
             "featured": false,
-            "forthcoming": true
+            "forthcoming": false
         },
         {
             "title": "Poem Beginning with Scales",
@@ -58,7 +159,7 @@
             "date": "April 2018",
             "format": "Web",
             "featured": false,
-            "forthcoming": true
+            "forthcoming": false
         },
         {
             "title": "Poem Beginning with a Corset",
@@ -68,7 +169,7 @@
             "date": "April 2018",
             "format": "Web",
             "featured": false,
-            "forthcoming": true
+            "forthcoming": false
         },
         {
             "title": "Beginning at the Golden Panda",
@@ -78,7 +179,7 @@
             "date": "Fall 2017",
             "format": "Web",
             "featured": false,
-            "forthcoming": true
+            "forthcoming": false
         },
         {
             "title": "Standing in the Pantry of Myself, Gluten-Intolerant and Jonesing for Brownies",
@@ -88,7 +189,7 @@
             "date": "Fall 2017",
             "format": "Web",
             "featured": false,
-            "forthcoming": true
+            "forthcoming": false
         },
         {
             "title": "Signs Seen Driving Past a Baptist Church in Rural PA",
@@ -98,7 +199,7 @@
             "date": "June 2017",
             "format": "Web",
             "featured": false,
-            "forthcoming": true
+            "forthcoming": false
         },
         {
             "title": "Metamorphic",
@@ -108,7 +209,7 @@
             "date": "June 2017",
             "format": "Web",
             "featured": false,
-            "forthcoming": true
+            "forthcoming": false
         },
         {
             "title": "Standing in the Garden of Myself Where My Lover Misplaced a Rusting Trowel",
@@ -118,7 +219,7 @@
             "date": "June 2017",
             "format": "Web",
             "featured": false,
-            "forthcoming": true
+            "forthcoming": false
         },
         {
             "title": "at Mendocino",
@@ -128,7 +229,7 @@
             "date": "July 23, 2017",
             "format": "Web",
             "featured": false,
-            "forthcoming": true
+            "forthcoming": false
         },
         {
             "title": "In the Morning after a Storm That Takes Down Three Oaks in the Backyard",
@@ -138,7 +239,7 @@
             "date": "2017",
             "format": "Print",
             "featured": false,
-            "forthcoming": true
+            "forthcoming": false
         },
         {
             "title": "Staretz",
@@ -148,7 +249,7 @@
             "date": "Dec. 2016",
             "format": "Web",
             "featured": false,
-            "forthcoming": true
+            "forthcoming": false
         },
         {
             "title": "the feminist at her ultrasound, december 2011",
@@ -158,7 +259,7 @@
             "date": "Sept. 2016",
             "format": "Web",
             "featured": false,
-            "forthcoming": true
+            "forthcoming": false
         },
         {
             "title": "After Domestic Dispute #12",
@@ -168,7 +269,7 @@
             "date": "Sept. 2016",
             "format": "Web",
             "featured": false,
-            "forthcoming": true
+            "forthcoming": false
         },
         {
             "title": "Pantoum for Mother and Child",
@@ -178,7 +279,7 @@
             "date": "Dec. 2014",
             "format": "Web",
             "featured": false,
-            "forthcoming": true
+            "forthcoming": false
         },
         {
             "title": "On the Day James Foley is Beheaded",
@@ -188,7 +289,7 @@
             "date": "Dec. 2014",
             "format": "Web",
             "featured": false,
-            "forthcoming": true
+            "forthcoming": false
         }
     ]
 }
