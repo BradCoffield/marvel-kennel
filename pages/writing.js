@@ -16,6 +16,7 @@ Some thoughts on all this.
 import PageHeading from "../components/PageHeading";
 import FictionPubs from "../data/publications/fiction.json";
 import PoetryPubs from "../data/publications/poetry.json";
+import NonfictionPubs from "../data/publications/nonfiction.json"
 import Link from "next/link";
 import styled from "styled-components";
 
@@ -83,7 +84,7 @@ export default function Writing() {
     <>
       <PageHeading
         content={"Writing"}
-        image={"/assets/52VintageSunbursts/Black/PNG/Black-10.png"}
+        image={"/assets/writing_page_sunburst.png"}
       />
       <div>
         <h2>Selected Poetry</h2>
@@ -115,7 +116,8 @@ export default function Writing() {
             return (
               <>
                 <li className="box" key={pub.title}>
-                 "{
+                  "
+                  {
                     //Check if message failed
                     doWeHaveUrl ? (
                       <Link href={pub.url}>
@@ -126,7 +128,6 @@ export default function Writing() {
                           }`}
                         >
                           {title}
-                         
                         </a>
                       </Link>
                     ) : (
@@ -136,10 +137,10 @@ export default function Writing() {
                         }`}
                       >
                         {title}
-                       
                       </a>
                     )
-                  }"&nbsp;<em>{pubTitle}</em> {forthcomingText}
+                  }
+                  "&nbsp;in <em>{pubTitle}</em> {forthcomingText}
                 </li>
               </>
             );
@@ -174,7 +175,8 @@ export default function Writing() {
             return (
               <>
                 <li className="box" key={pub.title}>
-                  "{
+                  "
+                  {
                     //Check if message failed
                     doWeHaveUrl ? (
                       <Link href={pub.url}>
@@ -198,7 +200,71 @@ export default function Writing() {
                         {/* <span className="nowrap bold title1">{pubTitle}</span> */}
                       </a>
                     )
-                  }"&nbsp;in <em>{pubTitle}</em> {additionalNote}
+                  }
+                  "&nbsp;in <em>{pubTitle}</em> {additionalNote}
+                  {forthcomingText}
+                </li>
+              </>
+            );
+          })}
+        </PubsUlSimpleList>
+
+        <h2>Selected Nonfiction</h2>
+        <PubsUlSimpleList>
+          {NonfictionPubs.nonfiction.map((pub) => {
+            let title = pub.title;
+            let pubTitle = pub.pubTitle;
+
+            // let linkString = `<Link href="${pub.url}">`;
+
+            /* Dealing with the variability of URL existence */
+            let wantUnderline = true;
+            let doWeHaveUrl = true;
+            if (pub.url == "" || pub.url == null || pub.url == undefined) {
+              wantUnderline = false;
+              doWeHaveUrl = false;
+            }
+
+            let additionalNote = "";
+            if (pub.additionalNote) {
+              additionalNote = `(${pub.additionalNote})`;
+            }
+
+            /* Do we want to include forthcoming? */
+            let forthcomingText = "";
+            if (pub.forthcoming) {
+              forthcomingText = `(forthcoming)`;
+            }
+            return (
+              <>
+                <li className="box" key={pub.title}>
+                  "
+                  {
+                    //Check if message failed
+                    doWeHaveUrl ? (
+                      <Link href={pub.url}>
+                        <a
+                          target="_blank"
+                          className={`${
+                            wantUnderline ? "yesUnderline" : "noUnderline"
+                          }`}
+                        >
+                          {title}
+                          {/* <span className="nowrap bold title1">{pubTitle}</span> */}
+                        </a>
+                      </Link>
+                    ) : (
+                      <a
+                        className={`${
+                          wantUnderline ? "yesUnderline" : "noUnderline"
+                        }`}
+                      >
+                        {title}
+                        {/* <span className="nowrap bold title1">{pubTitle}</span> */}
+                      </a>
+                    )
+                  }
+                  "&nbsp;in <em>{pubTitle}</em> {additionalNote}
                   {forthcomingText}
                 </li>
               </>

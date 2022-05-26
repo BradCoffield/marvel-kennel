@@ -24,24 +24,22 @@ export default function About() {
         content={"About"}
         image={"/assets/52VintageSunbursts/Black/PNG/Black-04.png"}
       /> */}
-      <div >
+      <div>
         <br />
         <br />
-        <AboutImage
-          alt="Ashley Kunsa"
-          src="https://wta9-v1.netlify.app/images/Ashley%20K%20headshot.JPG"
-        />
+        <AboutImage alt="Ashley Kunsa" src="/assets/Ashley K headshot.jpg" />
         <p>
-          Ashley Kunsa is a writer, teacher, and Pittsburgh native. Her poetry,
-          short fiction, and nonfiction can be found or is forthcoming in a
-          variety of print and online publications including{" "}
-          <em>Bennington Review</em>,<em>The Forge</em>,{" "}
-          <em>Cream City Review</em>, and <em>The Writer Magazine</em>. Her work
-          has received prizes from the A Room of Her Own Foundation and{" "}
-          <em>Eastern Iowa Review</em>. She holds an MFA from Penn State
-          University and a PhD from Duquesne University and is currently
-          assistant professor of creative writing at Rocky Mountain College in
-          Billings, MT, where she lives with her husband and two children.
+          Ashley Kunsa is assistant professor of creative writing at Rocky
+          Mountain College in Billings, MT. She holds a PhD in English
+          literature from Duquesne University and an MFA in fiction writing from
+          Penn State. Her poetry has appeared or is forthcoming in{" "}
+          <em>Bennington Review</em>, <em>Massachusetts Review</em>,{" "}
+          <em>Radar Poetry</em>, <em>Cream City Review</em>, and{" "}
+          <em>Southern Humanities Review</em>, and her fiction and nonfiction
+          have been published in the <em>Los Angeles Review</em>,{" "}
+          <em>The Writer</em> magazine, <em>Forge Literary Magazine</em>,{" "}
+          <em>Sycamore Review</em>, and many other venues. Originally from
+          Pittsburgh, she lives in Billings with her husband and two children.
         </p>
       </div>
     </>

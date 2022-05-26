@@ -4,7 +4,7 @@ export default function Teaching() {
     <>
       <PageHeading
         content={"Teaching"}
-        image={"/assets/52VintageSunbursts/Black/PNG/Black-18.png"}
+        image={"/assets/teaching_page_sunburst.png"}
       />
       <div>
         <p>
@@ -32,7 +32,8 @@ export default function Teaching() {
         </p>
         <p>
           For additional information about Ashley’s teaching, including her
-          professional activities and awards, please see her CV.
+          professional activities and awards, please see her{" "}
+          <a href="/assets/Ashley Kunsa - CV.pdf">CV</a>.
         </p>
       </div>
     </>

@@ -3,12 +3,12 @@ import PageHeading from "../components/PageHeading";
 import styled from "styled-components"
 
 let Formwrap = styled.div`
-  // width: 550px;
+  max-width: 550px;
   padding-bottom: 3rem;
   background: transparent;
   /* padding: 50px 0px 160px 0px; */
   margin: auto;
-  background-color: #9a8e8c;
+  background-color: hsla(15.3, 29.4%, 60.6%, .5);
   border-radius: 15px;
   box-shadow: 0px 0px 1px gray;
   .form-unit {
@@ -39,7 +39,6 @@ let Formwrap = styled.div`
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       color: white;
     }
-  
   }
 `;
 
@@ -48,7 +47,7 @@ export default function Contact() {
     <>
       <PageHeading
         content={"Contact"}
-        image={"/assets/52VintageSunbursts/Black/PNG/Black-04.png"}
+        image={"/assets/contact_page_sunburst.png"}
       />
 
       <Formik
@@ -101,7 +100,9 @@ export default function Contact() {
                 <Field name="message" component="textarea" />
               </div>
               {/* <ErrorMessage name="message" /> */}
-              <button type="submit" id="submit-button">Send</button>
+              <button type="submit" id="submit-button">
+                Send
+              </button>
             </Form>
           </Formwrap>
         )}
