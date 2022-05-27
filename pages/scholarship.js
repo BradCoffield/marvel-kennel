@@ -11,9 +11,9 @@ export default function Misc() {
       </div>
       <ul className="hanging-indent-ul">
         <li className="hanging-indent">
-          “History, Hair, and Reimagining Racial Categories in Junot Díaz’s The
-          Brief Wondrous Life of Oscar Wao.” Critique: Studies in Contemporary
-          Fiction 54.2 (2013): 211–24. Print.&nbsp;
+          “History, Hair, and Reimagining Racial Categories in Junot Díaz’s{" "}
+          <em>The Brief Wondrous Life of Oscar Wao.</em>” Critique: Studies in
+          Contemporary Fiction 54.2 (2013): 211–24. Print.&nbsp;
           <a
             href="http://www.tandfonline.com/doi/abs/10.1080/00111619.2011.574747#.Uu2v2D2wJOR"
             target="_blank"
@@ -24,9 +24,11 @@ export default function Misc() {
 
         <li className="hanging-indent">
           “‘Maps of the World in Its Becoming’: Post-Apocalyptic Naming in
-          Cormac McCarthy’s The Road.” Journal of Modern Literature 33.1 (2009):
-          57–74. Print. Reprinted in Cormac McCarthy’s The Road (Bloom’s
-          Guides). Ed. Harold Bloom. New York: Chelsea House, 2011. 91–107.
+          Cormac McCarthy’s <em>The Road</em>.” Journal of Modern Literature 33.1 (2009):
+          57–74. Print. Reprinted in <em>
+            Cormac McCarthy’s The Road (Bloom’s
+            Guides)
+          </em>. Ed. Harold Bloom. New York: Chelsea House, 2011. 91–107.
           Print.&nbsp;
           <a
             href="http://muse.jhu.edu/journals/journal_of_modern_literature/summary/v033/33.1.kunsa.html"

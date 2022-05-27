@@ -76,7 +76,13 @@ text-decoration: none;
      .hanging-indent {text-indent: -1.5em;
  list-style-type:none;}
       .hanging-indent-ul {margin-left:0rem; li{margin-bottom: 1.5rem;}}
-
+#writing-page-content {h2 {
+  margin-bottom:-12px;padding-bottom:0px;
+}
+ul {margin-bottom:2.1rem;}
+ul li {
+  margin-bottom:8px;
+}}
 `;
 
 const InnerStyles = styled.div`

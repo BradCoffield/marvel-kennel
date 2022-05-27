@@ -1,7 +1,7 @@
 {
     "fiction": [
         {
-            "title": "Gente de Caballo",
+            "title": "<em>Gente de Caballo</em>",
             "url": "",
             "pubTitle": "The Maine Review",
             "additionalNote":false, "volumeIssue": "",
@@ -13,7 +13,7 @@
         {
             "title": "Drowning",
             "url": "https://forgelitmag.com/2018/04/09/drowning/",
-            "pubTitle": "Forge Literary Magazine",
+            "pubTitle": "The Forge",
             "additionalNote":false, "volumeIssue": "",
             "date": "April 9, 2018",
             "format": "Web",
@@ -246,7 +246,7 @@
             "title": "A Woman's Glory",
             "url": "http://aroomofherownfoundation.org/a-womans-glory-by-ashley-kunsa/",
             "pubTitle": "The Los Angeles Review",
-            "additionalNote": "reprinted at Flash Fiction Online",
+            "additionalNote": "winner, Orlando prize; reprinted at <a href=\"http://flashfictiononline.com/main/article/a-womans-glory-literary-fiction/\" target=\"_blank\"><em>Flash Fiction Online</em></a>",
               "volumeIssue": "11.2",
             "date": "Oct. 2011",
             "pageRange": "29-30",

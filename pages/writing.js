@@ -1,24 +1,11 @@
-/* 
-
-Some thoughts on all this. 
--Maybe one big JSON file, maybe not, but probably.
--Add keys: yearOfPublication, featured 
--This is if it's okay to not have perfectly fine grained control over order within the years themselves, maybe random within
--Or could have yearOfPub be a machine readable date string that involves month of pub, that could be a way for finer grained control
--Have a separate variable for all the years OR if using machine readable code then just sort by that in one big array
-
--instead of listing each poem/piece on hover for pubs with multiple
-  * first filter the array or something finding pubs with multiple pieces and deal witht hem such when it gets output you see "multiple pieces" instead of title
-
-
-*/
-
 import PageHeading from "../components/PageHeading";
 import FictionPubs from "../data/publications/fiction.json";
 import PoetryPubs from "../data/publications/poetry.json";
 import NonfictionPubs from "../data/publications/nonfiction.json"
 import Link from "next/link";
 import styled from "styled-components";
+import parse from "html-react-parser";
+
 
 export default function Writing() {
   const PubsUlSimpleList = styled.ul`
@@ -86,7 +73,7 @@ export default function Writing() {
         content={"Writing"}
         image={"/assets/writing_page_sunburst.png"}
       />
-      <div>
+      <div id="writing-page-content">
         <h2>Selected Poetry</h2>
         <PubsUlSimpleList>
           {selectedPoetry.map((pub) => {
@@ -149,7 +136,7 @@ export default function Writing() {
         <h2>Selected Fiction</h2>
         <PubsUlSimpleList>
           {selectedFiction.map((pub) => {
-            let title = pub.title;
+            let title = parse(pub.title);
             let pubTitle = pub.pubTitle;
 
             // let linkString = `<Link href="${pub.url}">`;
@@ -164,7 +151,8 @@ export default function Writing() {
 
             let additionalNote = "";
             if (pub.additionalNote) {
-              additionalNote = `(${pub.additionalNote})`;
+              const temp = `(${pub.additionalNote})`;
+              additionalNote = parse(temp)
             }
 
             /* Do we want to include forthcoming? */
