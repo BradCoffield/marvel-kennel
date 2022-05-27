@@ -42,6 +42,12 @@ let Formwrap = styled.div`
   }
 `;
 
+const encode = (data) => {
+  return Object.keys(data)
+    .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+};
+
 export default function Contact() {
   return (
     <>
@@ -57,8 +63,19 @@ export default function Contact() {
           message: "",
         }}
         onSubmit={(values, actions) => {
-          alert(JSON.stringify(values, null, 2));
-          actions.setSubmitting(false);
+          fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: encode({ "form-name": "contact", ...values }),
+          })
+            .then(() => {
+              alert("Success");
+              actions.resetForm();
+            })
+            .catch(() => {
+              alert("Error");
+            })
+            .finally(() => actions.setSubmitting(false));
         }}
         validate={(values) => {
           const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
@@ -77,7 +94,7 @@ export default function Contact() {
       >
         {() => (
           <Formwrap>
-            <Form>
+            <Form name="contact" data-netlify={true}>
               <div className="form-unit">
                 <label htmlFor="name">Name: </label>
                 <Field name="name" />
