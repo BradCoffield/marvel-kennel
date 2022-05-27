@@ -15,9 +15,11 @@ export default function Teaching() {
           her students’ intellectual curiosity and willingness to take risks and
           to create a space where all members of the classroom community feel
           supported as they engage in the process of making meaning and
-          discovering their voices. Her students have published work from her
-          courses in <em>Montana Quarterly</em>, <em>Allegheny Review</em>,{" "}
-          <em>Pithead Chapel</em>, and numerous other venues.
+          discovering their voices. Students have published work from her
+          courses in <em>
+            Montana Quarterly, Allegheny Review, Sink Hollow, Pithead
+            Chapel
+          </em>, and other venues.
         </p>
         <p>
           In addition to her work at the college level, Ashley has considerable
