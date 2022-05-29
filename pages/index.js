@@ -37,7 +37,7 @@ export default function About() {
           <em>Radar Poetry</em>, <em>Cream City Review</em>, and{" "}
           <em>Southern Humanities Review</em>, and her fiction and nonfiction
           have been published in the <em>Los Angeles Review</em>,{" "}
-          <em>The Writer</em> magazine, <em>Forge Literary Magazine</em>,{" "}
+          <em>The Writer</em> magazine, <em>The Forge</em>,{" "}
           <em>Sycamore Review</em>, and many other venues. Originally from
           Pittsburgh, she lives in Billings with her husband and two children.
         </p>
