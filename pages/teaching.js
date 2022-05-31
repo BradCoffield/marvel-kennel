@@ -11,15 +11,18 @@ export default function Teaching() {
           At Rocky Mountain College, Ashley teaches a wide range of creative
           writing courses across genres and levels, from Introduction to
           Creative Writing and Introductory Poetry Workshop to Advanced Fiction
-          Writing and Senior Capstone. As an instructor, she seeks to encourage
-          her students’ intellectual curiosity and willingness to take risks and
-          to create a space where all members of the classroom community feel
-          supported as they engage in the process of making meaning and
-          discovering their voices. Students have published work from her
-          courses in <em>
-            Montana Quarterly, Allegheny Review, Sink Hollow, Pithead
-            Chapel
-          </em>, and other venues.
+          Writing and Senior Capstone. She also teaches the two-course Literary
+          Journal sequence, during which students design, solicit work for,
+          produce, and promote The Rocky Mountain Review. </p><p>As an instructor, she
+          seeks to encourage her students’ intellectual curiosity and
+          willingness to take risks and to create a space where all members of
+          the classroom community feel supported as they engage in the process
+          of making meaning and discovering their voices. Students have
+          published work from her courses in{" "}
+          <em>
+            Montana Quarterly, Allegheny Review, Sink Hollow, Pithead Chapel
+          </em>
+          , and other venues.
         </p>
         <p>
           In addition to her work at the college level, Ashley has considerable

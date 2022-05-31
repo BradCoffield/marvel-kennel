@@ -79,10 +79,12 @@ text-decoration: none;
 #writing-page-content {h2 {
   margin-bottom:-12px;padding-bottom:0px;
 }
+
 ul {margin-bottom:2.1rem;}
 ul li {
   margin-bottom:8px;
 }}
+.text-center {text-align:center;}
 `;
 
 const InnerStyles = styled.div`

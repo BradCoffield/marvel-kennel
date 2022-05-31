@@ -94,6 +94,7 @@ export default function Contact() {
       >
         {() => (
           <Formwrap>
+            {/* <h2 className="text-center">I'd love to hear from you!</h2> */}
             <Form name="contact" data-netlify={true}>
               <div className="form-unit">
                 <label htmlFor="name">Name: </label>
@@ -118,7 +119,7 @@ export default function Contact() {
               </div>
               {/* <ErrorMessage name="message" /> */}
               <button type="submit" id="submit-button">
-                Send
+                Say Hi!
               </button>
             </Form>
           </Formwrap>
