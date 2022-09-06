@@ -4,7 +4,7 @@ const MainNavStyles = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--teal-1);
+  background-color: var(--color-primary);
   padding: 0 2rem;
   position: sticky;
 
@@ -22,8 +22,8 @@ const MainNavStyles = styled.nav`
     font-size: 72px;
     background: linear-gradient(
       to right,
-      var(--brownish-1) 0%,
-      var(--yellow-1) 100%
+      var(--color-accent-2) 0%,
+      var(--color-accent-1) 100%
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

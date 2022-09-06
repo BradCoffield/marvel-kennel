@@ -27,19 +27,9 @@ export default function About() {
       <div>
         <br />
         <br />
-        <AboutImage alt="Ashley Kunsa" src="/assets/Ashley K headshot.jpg" />
+        
         <p>
-          Ashley Kunsa is assistant professor of creative writing at Rocky
-          Mountain College in Billings, MT. She holds a PhD in English
-          literature from Duquesne University and an MFA in fiction writing from
-          Penn State. Her poetry has appeared or is forthcoming in{" "}
-          <em>Bennington Review</em>, <em>Massachusetts Review</em>,{" "}
-          <em>Radar Poetry</em>, <em>Cream City Review</em>, and{" "}
-          <em>Southern Humanities Review</em>, and her fiction and nonfiction
-          have been published in the <em>Los Angeles Review</em>,{" "}
-          <em>The Writer</em> magazine, <em>The Forge</em>,{" "}
-          <em>Sycamore Review</em>, and many other venues. Originally from
-          Pittsburgh, she lives in Billings with her husband and two children.
+         EHH
         </p>
       </div>
     </>

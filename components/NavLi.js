@@ -9,7 +9,7 @@ export default function NavLi() {
         let lower = link.name.toLowerCase();
         return (
           <li key={link.name}>
-            <Link href={lower}>
+            <Link href={link.path}>
               <a >{link.name}</a>
             </Link>
           </li>

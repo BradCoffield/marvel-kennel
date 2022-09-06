@@ -10,7 +10,7 @@ export default function Nav() {
       <div id="nav-left">
         <span id="h1-wrap">
           <a href="/">
-                 <h1>Ashley Kunsa</h1>
+                 <h1>Marvel Kennels</h1>
           </a>
         </span>
       </div>

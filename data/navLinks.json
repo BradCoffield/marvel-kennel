@@ -1,15 +1,27 @@
 [
  
     {
-        "name": "Writing"
+        "name": "Our Story",
+        "path": "our-story"
     },
     {
-        "name": "Teaching"
+        "name": "Puppy Support Squad",
+        "path": "puppy-support-squad"
     },
     {
-        "name": "Scholarship"
+        "name": "Sadie & Bruno",
+        "path": "sadie-and-bruno"
     },
     {
-        "name": "Contact"
+        "name": "Super Pups",
+        "path": "super-pups"
+    },
+    {
+        "name": "About the Breed",
+        "path": "about-the-breed"
+    },
+    {
+        "name": "Contact",
+        "path": "contact"
     }
 ]

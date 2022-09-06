@@ -48,7 +48,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* General sidebar styles */
 .bm-menu {
   /* background: #373a47; */
-  background: linear-gradient( to bottom,var(--brownish-1) 0%,var(--teal-1) 100% );
+  background: linear-gradient( to bottom,var(--color-accent-2) 0%,var(--color-primary) 100% );
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
