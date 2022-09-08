@@ -1,16 +1,17 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import PageHeading from "../components/PageHeading";
 import styled from "styled-components"
+import FlexedImages from "../components/styles/FlexedImages";
 
 let Formwrap = styled.div`
-  max-width: 550px;
+  max-width: 1024px;
   padding-bottom: 3rem;
   background: transparent;
   /* padding: 50px 0px 160px 0px; */
   margin: auto;
-  background-color: var(--color-primary, gray);
+  background-color: var(--color-primary-2, gray);
   border-radius: 15px;
-  box-shadow: 0px 0px 1px gray;
+  box-shadow: 0px 0px 1px var(--color-accent-1);
   .form-unit {
     // max-width: 90%;
     padding: 1.5rem;
@@ -51,11 +52,14 @@ const encode = (data) => {
 export default function Contact() {
   return (
     <>
-      <PageHeading
-        content={"Contact"}
-        image={"/assets/contact_page_sunburst.png"}
-      />
-
+      <PageHeading content={"Contact"} />
+      <FlexedImages>
+        <img src="https://via.placeholder.com/300" alt="" />
+        <img src="https://via.placeholder.com/300" alt="" />
+        <img src="https://via.placeholder.com/300" alt="" />
+      </FlexedImages>
+      <br />
+<p style={{"textAlign": "center"}}>Please be sure to specify if you're interested in adopting a pup or sponsoring an adoption for someone else. Thank you! </p>
       <Formik
         initialValues={{
           name: "",
@@ -86,9 +90,7 @@ export default function Contact() {
           if (!values.email || !emailRegex.test(values.email)) {
             errors.email = "Valid Email Required";
           }
-          //   if (!values.message) {
-          //     errors.message = "Message Required";
-          //   }
+         
           return errors;
         }}
       >
@@ -119,7 +121,7 @@ export default function Contact() {
               </div>
               {/* <ErrorMessage name="message" /> */}
               <button type="submit" id="submit-button">
-                Say Hi!
+                Submit
               </button>
             </Form>
           </Formwrap>

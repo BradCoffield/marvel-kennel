@@ -20,7 +20,8 @@ html {
   --black-transparent-2: rgba(5, 5, 5, 0.8);
   
  
-  --maxWidth: 1040px;
+  --maxWidth: 1200px;
+
   --color-primary: #023047;
   --color-primary-2: #8ecae6;
   --color-secondary: #219ebc;
@@ -30,7 +31,7 @@ html {
 
 }
 *::selection {
-  background-color: rgb(59, 51, 161);
+  background-color:var(--color-accent-2);
   color: white;
 }
 
@@ -73,9 +74,13 @@ text-decoration: none;
         margin: .5rem auto 1rem;
         width: 50%;
         box-shadow: 0px 0px 15px #333;
+        font-size: 16px;
+        text-transform: uppercase;
+        /* letter-spacing: 2px; */
+        font-weight: bold;
     
     }
-     #submit-button:hover {background: var(--color-primary);box-shadow:0px 0px 0px #111;cursor:pointer;margin-top:.5rem;}
+     #submit-button:hover {background: var(--color-accent-2);box-shadow:0px 0px 0px #111;cursor:pointer;margin-top:.5rem;}
      .hanging-indent {text-indent: -1.5em;
  list-style-type:none;}
       .hanging-indent-ul {margin-left:0rem; li{margin-bottom: 1.5rem;}}
