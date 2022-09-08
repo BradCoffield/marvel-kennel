@@ -6,9 +6,10 @@ font-size: 1rem;
 background-color: var(--color-primary, transparent);
 padding: 2rem 0px;
 margin-top: 4rem;
-a{text-decoration:0px solid black;}
+color: white;
+a{text-decoration:0px solid white;}
 a:hover {
-    border-bottom:1px solid black;
+    border-bottom:1px solid white;
 }
 `
 

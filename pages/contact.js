@@ -8,7 +8,7 @@ let Formwrap = styled.div`
   background: transparent;
   /* padding: 50px 0px 160px 0px; */
   margin: auto;
-  background-color: var(--color-accent-2, gray);
+  background-color: var(--color-primary, gray);
   border-radius: 15px;
   box-shadow: 0px 0px 1px gray;
   .form-unit {

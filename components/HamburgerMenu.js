@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Link from "next/link";
-import { slide as Menu } from "react-burger-menu";
+import { bubble as Menu } from "react-burger-menu";
  import navLinks from "../data/navLinks.json";
 
 // import NavLi from "./NavLi";
@@ -22,17 +22,16 @@ export default function HamburgerMenu() {
     >
       <ul className="nav-li-insides">
         {navLinks.map((link) => {
-          let lower = link.name.toLowerCase()
+          let lower = link.name.toLowerCase();
           return (
             <li key={link.name}>
-              <Link href={lower}>
-                <a onClick={() => handleCloseMenu()}>{link.name}</a>
+              <Link href={link.path}>
+                <a>{link.name}</a>
               </Link>
             </li>
           );
         })}
       </ul>
- 
     </Menu>
   );
 }

@@ -5,7 +5,7 @@
 //   return `hi i'm index`
 // }
 
-import PageHeading from "../components/PageHeading";
+import PageHeading from "../components/OldPageHeading";
 import styled from "styled-components";
 
 let AboutImage = styled.img`
@@ -29,7 +29,7 @@ export default function About() {
         <br />
         
         <p>
-         EHH
+         Homepage
         </p>
       </div>
     </>

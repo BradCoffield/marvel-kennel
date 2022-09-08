@@ -14,10 +14,10 @@ export default function AboutTheBreed() {
     <>
       <PageHeading
         content={"About the Breed"}
-        image={""}
+        
       />
       <div>
-        EHH
+        Content
       </div>
     </>
   );

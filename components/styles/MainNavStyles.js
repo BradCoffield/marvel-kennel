@@ -16,7 +16,8 @@ const MainNavStyles = styled.nav`
   }
 
   #nav-left h1 {
-    font-family: flegrei, sans-serif;
+    /* font-family: flegrei, sans-serif; */
+    font-family: "Bangers", cursive;
     font-weight: 400;
     font-style: normal;
     font-size: 72px;
@@ -36,15 +37,15 @@ const MainNavStyles = styled.nav`
     list-style: none;
     display: inline;
     margin: 0rem 1rem;
-    /* color: #6cbbb3; */
+    
     color: white;
-    font-size: 24px;
+    font-size: 28px;
   }
   .nav-li-insides li {
     list-style: none;
     display: inline;
     margin: 0rem 1rem;
-    /* color: #6cbbb3; */
+   
     color: white;
     font-size: 24px;
     list-style-type: none;
@@ -56,6 +57,8 @@ const MainNavStyles = styled.nav`
   }
   .nav-li-insides li a {
     text-decoration: transparent solid;
+    /* border: 1px white solid; */
+    font-size: 16px;
   }
 `;
 
