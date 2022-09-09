@@ -29,6 +29,9 @@ let Card = styled.div`
     margin: 0px;
     color: white;
   }
+  img{
+    max-width: 85%;
+  }
 `;
 
 export default function SadieAndBruno() {
@@ -36,7 +39,7 @@ export default function SadieAndBruno() {
     <>
       <PageHeading content={"Sadie & Bruno"} />
       <FlexedImages>
-        <Card><img src="https://via.placeholder.com/450x350" alt="" /></Card>
+        <Card><img src="https://via.placeholder.com/450x350" alt=""  /></Card>
       </FlexedImages>
       <p style={{margin: "3rem 0rem"}}>
         We feel that fate brought Sadie and Bruno together, two single AKC

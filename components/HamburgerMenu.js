@@ -13,10 +13,23 @@ export default function HamburgerMenu() {
   const handleStateChange = (state) => {
     handleMenu(state.isOpen);
   };
+
+
+  const [isOpen, setOpen] = useState(false);
+
+  const handleIsOpen = () => {
+    setOpen(!isOpen);
+  };
+
+  const closeSideBar = () => {
+    setOpen(false);
+  };
+
   return (
     <Menu
-      isOpen={isMenuOpen}
-      onStateChange={handleStateChange}
+      isOpen={isOpen}
+      onOpen={handleIsOpen}
+      onClose={handleIsOpen}
       right
       id="hammy"
     >
@@ -25,8 +38,8 @@ export default function HamburgerMenu() {
           let lower = link.name.toLowerCase();
           return (
             <li key={link.name}>
-              <Link href={link.path}>
-                <a>{link.name}</a>
+              <Link href={link.path} onClick={closeSideBar}>
+                <a onClick={closeSideBar}>{link.name}</a>
               </Link>
             </li>
           );
