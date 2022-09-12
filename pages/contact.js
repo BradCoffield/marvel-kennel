@@ -54,12 +54,27 @@ export default function Contact() {
     <>
       <PageHeading content={"Contact"} />
       <FlexedImages>
-        <img src="https://via.placeholder.com/300" alt="" />
-        <img src="https://via.placeholder.com/300" alt="" />
-        <img src="https://via.placeholder.com/300" alt="" />
+        <img
+          src="\assets\SadieBaby.png"
+          alt=""
+          style={{ "max-width": "250px" }}
+        />
+        <img
+          src="\assets\BrunoBaby.jpg"
+          alt=""
+          style={{ "max-width": "250px" }}
+        />
+        <img
+          src="\assets\Zeus.JPG.jpg"
+          alt=""
+          style={{ "max-width": "250px" }}
+        />
       </FlexedImages>
       <br />
-<p style={{"textAlign": "center"}}>Please be sure to specify if you're interested in adopting a pup or sponsoring an adoption for someone else. Thank you! </p>
+      <p style={{ textAlign: "center" }}>
+        Please be sure to specify if you're interested in adopting a pup or
+        sponsoring an adoption for someone else. Thank you!{" "}
+      </p>
       <Formik
         initialValues={{
           name: "",
@@ -90,7 +105,7 @@ export default function Contact() {
           if (!values.email || !emailRegex.test(values.email)) {
             errors.email = "Valid Email Required";
           }
-         
+
           return errors;
         }}
       >
