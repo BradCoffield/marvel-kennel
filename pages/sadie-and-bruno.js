@@ -7,12 +7,14 @@ let Card = styled.div`
   /* background-color: var(--color-secondary-2); */
   background-color: var(--color-primary);
   border-radius: 5px;
+  margin: 1rem;
+  max-width: 400px;
 
   h3 {
     text-align: center;
     color: white;
     text-transform: uppercase;
-     
+
     margin: 0px;
     font-family: "Bangers", cursive;
     font-family: "Bangers", cursive;
@@ -29,9 +31,13 @@ let Card = styled.div`
     margin: 0px;
     color: white;
   }
-  img{
-    max-width: 85%;
-  }
+ 
+    img {
+      max-width: 85%;
+      display:block;
+      margin: 1rem auto;
+    }
+  
 `;
 
 export default function SadieAndBruno() {
@@ -39,9 +45,14 @@ export default function SadieAndBruno() {
     <>
       <PageHeading content={"Sadie & Bruno"} />
       <FlexedImages>
-        <Card><img src="https://via.placeholder.com/450x350" alt=""  /></Card>
+        <Card>
+          <img src="\assets\SadieBruno.jpg" alt="" />
+        </Card>
+        <Card>
+          <img src="\assets\SadieBruno2a.jpg" alt="" />
+        </Card>
       </FlexedImages>
-      <p style={{margin: "3rem 0rem"}}>
+      <p style={{ margin: "3rem 0rem" }}>
         We feel that fate brought Sadie and Bruno together, two single AKC
         registered dogs, one town apart in Idaho. Better than the odds on most
         dating sites. We wanted a natural pregnancy, and this was a first for
@@ -51,7 +62,7 @@ export default function SadieAndBruno() {
         <FlexedImages>
           <Card>
             <h3>Sadie</h3>
-            <img src="https://via.placeholder.com/350" alt="" />
+            <img src="\assets\SadieBaby.png" alt="" />
             <div className="details">
               <ul>
                 <li>
@@ -71,7 +82,7 @@ export default function SadieAndBruno() {
           </Card>
           <Card>
             <h3>Bruno</h3>
-            <img src="https://via.placeholder.com/350" alt="" />
+            <img src="\assets\BrunoBaby.jpg" alt="" />
             <div className="details">
               <ul>
                 <li>

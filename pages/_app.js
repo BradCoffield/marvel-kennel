@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Marvel Kennels</title>
+        <title>Marvel kennel</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0"

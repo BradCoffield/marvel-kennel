@@ -27,9 +27,9 @@ export default function SuperPups() {
       <PageHeading content={"Super Pups!"} />
       <br />
       <FlexedImages>
-        <img src="https://via.placeholder.com/300" alt="" />
-        <img src="https://via.placeholder.com/300" alt="" />
-        <img src="https://via.placeholder.com/300" alt="" />
+        <img src="\assets\Hana_and_Rebecca.jpg" alt="" />
+        <img src="\assets\Rebecca_with_Amelia_and_Penny.jpg" alt="" />
+         
       </FlexedImages>
       <br />
       <FlexedImages>

@@ -3,7 +3,7 @@
         "name": "Amelia",
         "sex": "Female",
         "color": "Brown",
-        "image": "https://via.placeholder.com/300",
+        "image": "\\assets\\Rebecca_with_Amelia_and_Penny_3.jpg",
         "available": "Unavailable",
         "description": "Amelia runs her own show. She’s one of those females who needs no-one else’s approval. You’ll often find her starting her own game of tag or launching into hide and go seek."
     },
@@ -27,7 +27,7 @@
         "name": "Danny",
         "sex": "Male",
         "color": "Landseer",
-        "image": "https://via.placeholder.com/300",
+        "image": "\\assets\\Julian with Danny.jpg",
         "available": "Available",
         "description": "Danny is one of the “bigger boys” of the litter and enjoys watching over the others. His way of playing is a bit of bumping around and he finds great joy in a chasing a small ball for moments on end."
     },
@@ -67,7 +67,7 @@
         "name": "Sarah",
         "sex": "Female",
         "color": "Black",
-        "image": "https://via.placeholder.com/300",
+        "image": "\\assets\\Zach with Sarah.jpg",
         "available": "Unavailable",
         "description": "Sarah is a sweetness wrapped in starlight. She runs alongside her siblings and loves to join in, game for every time of fun. She loves her cuddle time, and loves curling up next to people and pups."
     },
@@ -75,7 +75,7 @@
         "name": "Zeus",
         "sex": "Male",
         "color": "Landseer",
-        "image": "https://via.placeholder.com/300",
+        "image": "\\assets\\Zeus.JPG.jpg",
         "available": "Unavailable",
         "description": "He’s the big guy of the bunch. Though not pushy. When you’re the size of Zeus, you don’t need to be. Zeus spends his time mostly strutting and eating."
     }

@@ -1,5 +1,11 @@
 import PageHeading from "../components/PageHeading";
 import styled from "styled-components";
+import TitleTextSmall from "../components/styles/TitleTextSmall";
+
+let Pic = styled.img`
+display: block;
+margin: 1rem auto;
+`
 
 export default function OurStory() {
   return (
@@ -12,7 +18,7 @@ export default function OurStory() {
           almost-daughter-in-law, Hana.
         </p>
 
-        <p>(I'm thinking a pic of everyone here would be good)</p>
+        <p><Pic src="/assets/TheSquad5.jpg" alt=""></Pic></p>
 
         <p>
           Zach, the oldest of three, is a disabled young adult. Our love for
@@ -35,7 +41,7 @@ export default function OurStory() {
         </p>
 
         <p>
-          We decided Marvel Kennels would be a great launch for a guy like Zach.
+          We decided Marvel kennel would be a great launch for a guy like Zach.
           He’s compassionate and a nurturer and a lover of all things furry.
         </p>
         <p>
@@ -55,7 +61,7 @@ export default function OurStory() {
         <p>
           It made sense that our kennel would revolve around a superhero theme.
         </p>
-        <p>Here we are. MARVEL KENNELS.</p>
+        <p>Here we are. <TitleTextSmall>MARVEL kennel</TitleTextSmall>.</p>
         <p>
           Because life is a marvel and we don’t take the precious days we have
           together lightly. <br /> Because birth is a marvel. <br /> Because
@@ -78,7 +84,7 @@ export default function OurStory() {
           to children and other family pets (including a cat).
         </p>
         <p>
-          Our goal with Marvel Kennels is to share the joy that Newfoundlands
+          Our goal with Marvel kennel is to share the joy that Newfoundlands
           have brought and continue to bring to our own family. We are part of a
           nonprofit organization (501c3)(Life’s Little Solutions) and we do
           accept donations.
