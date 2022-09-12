@@ -80,6 +80,7 @@ export default function Contact() {
           name: "",
           email: "",
           message: "",
+          honeypot: "",
         }}
         onSubmit={(values, actions) => {
           fetch("/", {
@@ -112,7 +113,11 @@ export default function Contact() {
         {() => (
           <Formwrap>
             {/* <h2 className="text-center">I'd love to hear from you!</h2> */}
-            <Form name="contact" data-netlify={true}>
+            <Form
+              name="contact"
+              data-netlify={true}
+              netlify-honeypot="honeypot"
+            >
               <div className="form-unit">
                 <label htmlFor="name">Name: </label>
                 <Field name="name" />
@@ -127,6 +132,12 @@ export default function Contact() {
                 <div className="errorMessage">
                   <ErrorMessage name="email" className="errorMessage" />
                 </div>
+              </div>
+              <div className="form-unit" style={{"display":"none"}}>
+                <label htmlFor="honeypot">
+                  If you are human don't fill this out:{" "}
+                </label>
+                <Field name="honeypot" />
               </div>
 
               <div className="form-unit">
