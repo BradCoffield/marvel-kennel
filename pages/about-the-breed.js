@@ -54,6 +54,7 @@ export default function AboutTheBreed() {
             <li>Multipurpose dog; water rescue.</li>
           </ul>
         </p>
+        <p>© The American Kennel Club, Inc. 2022. All rights reserved. </p>
       </div>
     </>
   );

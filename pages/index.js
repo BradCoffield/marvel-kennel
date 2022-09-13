@@ -27,10 +27,7 @@ text-align: center;
 export default function About() {
   return (
     <>
-      {/* <PageHeading
-        content={"About"}
-        image={"/assets/52VintageSunbursts/Black/PNG/Black-04.png"}
-      /> */}
+     
       <HomepageContent>
         <br />
         <br />
@@ -45,8 +42,8 @@ export default function About() {
           Idaho.
         </p>
         <p>
-          Our dogs have plenty of space to roam and play and our loved on by our
-          family from the moment of birth. Our puppies are vet checked, current
+          Our dogs have plenty of space to roam and play and are loved on by our
+          family from birth. Our puppies are vet checked, current
           on shots, wormed, and chipped prior to leaving for their forever home.{" "}
           <br />
           <span className="bold">

@@ -32,6 +32,14 @@
         "description": "Danny is one of the “bigger boys” of the litter and enjoys watching over the others. His way of playing is a bit of bumping around and he finds great joy in a chasing a small ball for moments on end."
     },
     {
+        "name": "Winston",
+        "sex": "Male",
+        "color": "Landseer",
+        "image": "\\assets\\Winston.JPG.jpg",
+        "available": "Available",
+        "description": "Winston is both adventurous and a peacekeeper. He’s the first to “rescue” a ball, pick sides during tug-of-war, and find a lone pup to snuggle up against. He loves long hair, ears, and anything shiny and will respond to anything so long as it follows a tune."
+    },
+    {
         "name": "Delilah",
         "sex": "Female",
         "color": "Landseer",

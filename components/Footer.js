@@ -14,7 +14,7 @@ a:hover {
 `
 
 const Footer = () => {
-    return <FooterStyled> &copy; Marvel kennel | Website by <a href="https://www.studio303.dev">Studio303</a></FooterStyled>;
+    return <FooterStyled> &copy; Marvel kennel | Website by <a href="https://www.studio303.dev" target={"_blank"} >Studio303</a></FooterStyled>;
 }
  
 export default Footer;
