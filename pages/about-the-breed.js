@@ -12,7 +12,9 @@ box-shadow: 1px 1px 15px #333;
 export default function AboutTheBreed() {
   return (
     <>
-      <PageHeading content={"About the Breed"} />
+      <div className="headingTooLong">
+        <PageHeading content={"About the Breed"} />
+      </div>
       <div>
         <p>
           You can read what the American Kennel Club says here:{" "}

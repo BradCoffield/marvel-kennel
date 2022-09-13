@@ -18,6 +18,7 @@ let HomepageImage = styled.img`
   /* background-color: blue; */
   /* padding:2rem; */
   box-shadow: 1px 1px 15px #333;
+  max-width:100%;
 `;
 let HomepageContent = styled.div`
 text-align: center;

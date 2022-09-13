@@ -5,6 +5,7 @@ import TitleTextSmall from "../components/styles/TitleTextSmall";
 let Pic = styled.img`
 display: block;
 margin: 1rem auto;
+max-width:100%;
 `
 
 export default function OurStory() {

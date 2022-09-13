@@ -95,7 +95,12 @@ ul li {
 .text-center {text-align:center;}
 
  
-
+@media screen and (max-width: 490px) {
+  .headingTooLong h2{
+    font-size:1.5rem!important;
+    margin: 2rem 0 3rem;
+  }
+}
 
 `;
 

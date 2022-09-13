@@ -3,13 +3,16 @@ import styled from "styled-components";
 let Pic = styled.img`
   display: block;
   margin: 1rem auto;
+  max-width:100%;
 `;
 
 
 export default function PuppySupportSquad() {
   return (
     <>
-      <PageHeading content={"Puppy Support Squad"} />
+      <div className="headingTooLong">
+        <PageHeading content={"Puppy Support Squad"} />
+      </div>
       <div>
         <p>
           This is a family endeavor. Meet the crew: Rebecca (mom), Zach (Marvel
@@ -24,7 +27,7 @@ export default function PuppySupportSquad() {
           From birth, we’ve shared the experience of breeding our Newfoundland,
           from cutting umbilical cords to group feedings and gatherings. We’ve
           rolled up our sleeves and have honored a hands-on approach with love,
-          tails, tales, and more. 
+          tails, tales, and more.
         </p>
         <p>
           It took our entire family hundreds of hours and energy to ensure these

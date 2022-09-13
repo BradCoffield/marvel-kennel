@@ -43,7 +43,9 @@ let Card = styled.div`
 export default function SadieAndBruno() {
   return (
     <>
-      <PageHeading content={"Sadie & Bruno"} />
+      <div className="headingTooLong">
+        <PageHeading content={"Sadie & Bruno"} />
+      </div>
       <FlexedImages>
         <Card>
           <img src="\assets\SadieBruno.jpg" alt="" />

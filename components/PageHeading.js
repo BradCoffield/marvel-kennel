@@ -19,13 +19,9 @@ let PageHeadingStyled = styled.h2`
 
 const PageHeading = ({ content }) => {
   return (
-    
-    <PageHeadingStyled>
-        
-            <span>{content}</span>
-        
+    <PageHeadingStyled >
+      <span>{content}</span>
     </PageHeadingStyled>
- 
   );
 };
 
