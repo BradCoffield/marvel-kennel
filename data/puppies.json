@@ -12,7 +12,7 @@
         "sex": "Male",
         "color": "Black",
         "image": "https://via.placeholder.com/300",
-        "available": "Available",
+        "available": "Unavailable",
         "description": "Bart is quick to play and join in the fun, but he also is an interventionist. When the others are playing too rough (in his high opinion), he intervenes, calms the crowd. He’s cautious and sweet and quiet."
     },
     {
@@ -20,7 +20,7 @@
         "sex": "Male",
         "color": "Black",
         "image": "https://via.placeholder.com/300",
-        "available": "Available",
+        "available": "Unavailable",
         "description": "Bruce is a high-energy burst of sunlight. He loves playing with the other pups, but he also finds joy in self-entertaining, like chasing butterflies. He’s assertive in a nice way, but also quite calm."
     },
     {
@@ -36,7 +36,7 @@
         "sex": "Male",
         "color": "Landseer",
         "image": "\\assets\\Winston.JPG.jpg",
-        "available": "Available",
+        "available": "Unavailable",
         "description": "Winston is both adventurous and a peacekeeper. He’s the first to “rescue” a ball, pick sides during tug-of-war, and find a lone pup to snuggle up against. He loves long hair, ears, and anything shiny and will respond to anything so long as it follows a tune."
     },
     {
