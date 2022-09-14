@@ -1,5 +1,35 @@
 [
+        {
+            "name": "Delilah",
+            "sex": "Female",
+            "color": "Landseer",
+            "image": "\\assets\\Delilah.JPG",
+            "available": "Available",
+            "description": "Delilah has a superior female disposition. This girl knows what she likes and goes for what she wants, usually food. She loves to play until she wears herself completely out. And then she sleeps. Her bark is a bit like Chewbacca’s."
+        },
+        {
+            "name": "Marvin",
+            "sex": "Male",
+            "color": "Black",
+            "image": "\\assets\\Marvin.JPG",
+            "available": "Available",
+            "description": "Marvin is assertive, though not aggressive. He simply likes to take the lead. He’s definitely the most active of the litter and you’ll find him chasing a grasshopper once the others are worn out."
+        },{
+        "name": "Pinky",
+        "sex": "Female",
+        "color": "Black",
+        "image": "\\assets\\Pinky1.JPG",
+        "available": "Available",
+        "description": "Pinky is a smaller female and finds her way into the center of it all—the food trough, the food fight, the play time—and you’ll witness her re-appearing from beneath the puppy pile with the souvenir toy or treat."
+    },
     {
+        "name": "Danny",
+        "sex": "Male",
+        "color": "Landseer",
+        "image": "\\assets\\Julian with Danny.jpg",
+        "available": "Available",
+        "description": "Danny is one of the “bigger boys” of the litter and enjoys watching over the others. His way of playing is a bit of bumping around and he finds great joy in a chasing a small ball for moments on end."
+    },{
         "name": "Amelia",
         "sex": "Female",
         "color": "Brown",
@@ -11,7 +41,7 @@
         "name": "Bartleby",
         "sex": "Male",
         "color": "Black",
-        "image": "https://via.placeholder.com/300",
+        "image": "\\assets\\Bart.JPG",
         "available": "Unavailable",
         "description": "Bart is quick to play and join in the fun, but he also is an interventionist. When the others are playing too rough (in his high opinion), he intervenes, calms the crowd. He’s cautious and sweet and quiet."
     },
@@ -19,18 +49,11 @@
         "name": "Bruce",
         "sex": "Male",
         "color": "Black",
-        "image": "https://via.placeholder.com/300",
+        "image": "\\assets\\Bruce.JPG",
         "available": "Unavailable",
         "description": "Bruce is a high-energy burst of sunlight. He loves playing with the other pups, but he also finds joy in self-entertaining, like chasing butterflies. He’s assertive in a nice way, but also quite calm."
     },
-    {
-        "name": "Danny",
-        "sex": "Male",
-        "color": "Landseer",
-        "image": "\\assets\\Julian with Danny.jpg",
-        "available": "Available",
-        "description": "Danny is one of the “bigger boys” of the litter and enjoys watching over the others. His way of playing is a bit of bumping around and he finds great joy in a chasing a small ball for moments on end."
-    },
+ 
     {
         "name": "Winston",
         "sex": "Male",
@@ -39,38 +62,16 @@
         "available": "Unavailable",
         "description": "Winston is both adventurous and a peacekeeper. He’s the first to “rescue” a ball, pick sides during tug-of-war, and find a lone pup to snuggle up against. He loves long hair, ears, and anything shiny and will respond to anything so long as it follows a tune."
     },
-    {
-        "name": "Delilah",
-        "sex": "Female",
-        "color": "Landseer",
-        "image": "https://via.placeholder.com/300",
-        "available": "Available",
-        "description": "Delilah has a superior female disposition. This girl knows what she likes and goes for what she wants, usually food. She loves to play until she wears herself completely out. And then she sleeps. Her bark is a bit like Chewbacca’s."
-    },
-    {
-        "name": "Marvin",
-        "sex": "Male",
-        "color": "Black",
-        "image": "https://via.placeholder.com/300",
-        "available": "Available",
-        "description": "Marvin is assertive, though not aggressive. He simply likes to take the lead. He’s definitely the most active of the litter and you’ll find him chasing a grasshopper once the others are worn out."
-    },
+
     {
         "name": "Penelope",
         "sex": "Female",
         "color": "Landseer",
-        "image": "https://via.placeholder.com/300",
+        "image": "\\assets\\Penelope.JPG",
         "available": "Unavailable",
         "description": "Penny likes to cuddle—with humans and pup-mates and anything that doesn’t move. She’s a calm and quiet girl in search of a peaceful place, perhaps finding her zen."
     },
-    {
-        "name": "Pinky",
-        "sex": "Female",
-        "color": "Black",
-        "image": "https://via.placeholder.com/300",
-        "available": "Available",
-        "description": "Pinky is a smaller female and finds her way into the center of it all—the food trough, the food fight, the play time—and you’ll witness her re-appearing from beneath the puppy pile with the souvenir toy or treat."
-    },
+ 
     {
         "name": "Sarah",
         "sex": "Female",
