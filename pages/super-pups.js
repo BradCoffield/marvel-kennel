@@ -42,6 +42,7 @@ export default function SuperPups() {
                 {puppy.available} - {puppy.sex} - {puppy.color}
               </span>
               <p>{puppy.description}</p>
+             {puppy.additionalLink !== null && <p style={{"font-size":"18px"}}><a href={puppy.additionalLink}>More pictures of {puppy.name}</a></p>}
             </PuppyCard>
           );
         })}

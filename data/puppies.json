@@ -5,6 +5,7 @@
             "color": "Landseer",
             "image": "\\assets\\Delilah.JPG",
             "available": "Available",
+            "additionalLink": "/puppies/delilah/",
             "description": "Delilah has a superior female disposition. This girl knows what she likes and goes for what she wants, usually food. She loves to play until she wears herself completely out. And then she sleeps. Her bark is a bit like Chewbacca’s."
         },
         {
@@ -13,6 +14,7 @@
             "color": "Black",
             "image": "\\assets\\Marvin.JPG",
             "available": "Available",
+            "additionalLink": "/puppies/marvin/",
             "description": "Marvin is assertive, though not aggressive. He simply likes to take the lead. He’s definitely the most active of the litter and you’ll find him chasing a grasshopper once the others are worn out."
         },{
         "name": "Pinky",
@@ -20,6 +22,7 @@
         "color": "Black",
         "image": "\\assets\\Pinky1.JPG",
         "available": "Available",
+        "additionalLink": "/puppies/pinky/",
         "description": "Pinky is a smaller female and finds her way into the center of it all—the food trough, the food fight, the play time—and you’ll witness her re-appearing from beneath the puppy pile with the souvenir toy or treat."
     },
     {
@@ -28,6 +31,7 @@
         "color": "Landseer",
         "image": "\\assets\\Julian with Danny.jpg",
         "available": "Available",
+        "additionalLink": "/puppies/danny/",
         "description": "Danny is one of the “bigger boys” of the litter and enjoys watching over the others. His way of playing is a bit of bumping around and he finds great joy in a chasing a small ball for moments on end."
     },{
         "name": "Amelia",
@@ -35,6 +39,7 @@
         "color": "Brown",
         "image": "\\assets\\Rebecca_with_Amelia_and_Penny_3.jpg",
         "available": "Unavailable",
+        "additionalLink": null,
         "description": "Amelia runs her own show. She’s one of those females who needs no-one else’s approval. You’ll often find her starting her own game of tag or launching into hide and go seek."
     },
     {
@@ -43,6 +48,7 @@
         "color": "Black",
         "image": "\\assets\\Bart.JPG",
         "available": "Unavailable",
+        "additionalLink": null,
         "description": "Bart is quick to play and join in the fun, but he also is an interventionist. When the others are playing too rough (in his high opinion), he intervenes, calms the crowd. He’s cautious and sweet and quiet."
     },
     {
@@ -51,6 +57,7 @@
         "color": "Black",
         "image": "\\assets\\Bruce.JPG",
         "available": "Unavailable",
+        "additionalLink": null,
         "description": "Bruce is a high-energy burst of sunlight. He loves playing with the other pups, but he also finds joy in self-entertaining, like chasing butterflies. He’s assertive in a nice way, but also quite calm."
     },
  
@@ -60,6 +67,7 @@
         "color": "Landseer",
         "image": "\\assets\\Winston.JPG.jpg",
         "available": "Unavailable",
+        "additionalLink": null,
         "description": "Winston is both adventurous and a peacekeeper. He’s the first to “rescue” a ball, pick sides during tug-of-war, and find a lone pup to snuggle up against. He loves long hair, ears, and anything shiny and will respond to anything so long as it follows a tune."
     },
 
@@ -78,6 +86,7 @@
         "color": "Black",
         "image": "\\assets\\Zach with Sarah.jpg",
         "available": "Unavailable",
+        "additionalLink": null,
         "description": "Sarah is a sweetness wrapped in starlight. She runs alongside her siblings and loves to join in, game for every time of fun. She loves her cuddle time, and loves curling up next to people and pups."
     },
     {
@@ -86,6 +95,7 @@
         "color": "Landseer",
         "image": "\\assets\\Zeus.JPG.jpg",
         "available": "Unavailable",
+        "additionalLink": null,
         "description": "He’s the big guy of the bunch. Though not pushy. When you’re the size of Zeus, you don’t need to be. Zeus spends his time mostly strutting and eating."
     }
 ]
