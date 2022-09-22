@@ -4,7 +4,7 @@
             "sex": "Female",
             "color": "Landseer",
             "image": "\\assets\\Delilah.JPG",
-            "available": "Available",
+            "available": "Pending",
             "additionalLink": "/puppies/delilah/",
             "description": "Delilah has a superior female disposition. This girl knows what she likes and goes for what she wants, usually food. She loves to play until she wears herself completely out. And then she sleeps. Her bark is a bit like Chewbacca’s."
         },
@@ -13,16 +13,16 @@
             "sex": "Male",
             "color": "Black",
             "image": "\\assets\\Marvin.JPG",
-            "available": "Available",
+            "available": "Unavailable",
             "additionalLink": "/puppies/marvin/",
             "description": "Marvin is assertive, though not aggressive. He simply likes to take the lead. He’s definitely the most active of the litter and you’ll find him chasing a grasshopper once the others are worn out."
         },{
-        "name": "Pinky",
+        "name": "Porsche",
         "sex": "Female",
         "color": "Black",
         "image": "\\assets\\Pinky1.JPG",
         "available": "Available",
-        "additionalLink": "/puppies/pinky/",
+        "additionalLink": "/puppies/porsche/",
         "description": "Pinky is a smaller female and finds her way into the center of it all—the food trough, the food fight, the play time—and you’ll witness her re-appearing from beneath the puppy pile with the souvenir toy or treat."
     },
     {
@@ -43,7 +43,7 @@
         "description": "Amelia runs her own show. She’s one of those females who needs no-one else’s approval. You’ll often find her starting her own game of tag or launching into hide and go seek."
     },
     {
-        "name": "Bartleby",
+        "name": "Bartholomew",
         "sex": "Male",
         "color": "Black",
         "image": "\\assets\\Bart.JPG",
@@ -56,7 +56,7 @@
         "sex": "Male",
         "color": "Black",
         "image": "\\assets\\Bruce.JPG",
-        "available": "Unavailable",
+        "available": "Available",
         "additionalLink": null,
         "description": "Bruce is a high-energy burst of sunlight. He loves playing with the other pups, but he also finds joy in self-entertaining, like chasing butterflies. He’s assertive in a nice way, but also quite calm."
     },
@@ -68,7 +68,7 @@
         "image": "\\assets\\Winston.JPG.jpg",
         "available": "Unavailable",
         "additionalLink": null,
-        "description": "Winston is both adventurous and a peacekeeper. He’s the first to “rescue” a ball, pick sides during tug-of-war, and find a lone pup to snuggle up against. He loves long hair, ears, and anything shiny and will respond to anything so long as it follows a tune."
+        "description": " Winston is both adventurous and a peacekeeper. He’s the first to “rescue” a ball and a butterfly. He seeks out the lone pup to snuggle with and loves hair, ears, and toes."
     },
 
     {
@@ -77,6 +77,7 @@
         "color": "Landseer",
         "image": "\\assets\\Penelope.JPG",
         "available": "Unavailable",
+        "additionalLink": null,
         "description": "Penny likes to cuddle—with humans and pup-mates and anything that doesn’t move. She’s a calm and quiet girl in search of a peaceful place, perhaps finding her zen."
     },
  
@@ -87,7 +88,7 @@
         "image": "\\assets\\Zach with Sarah.jpg",
         "available": "Unavailable",
         "additionalLink": null,
-        "description": "Sarah is a sweetness wrapped in starlight. She runs alongside her siblings and loves to join in, game for every time of fun. She loves her cuddle time, and loves curling up next to people and pups."
+        "description": "Sarah is sweetness wrapped in starlight. She runs alongside her siblings and loves to join in games. She adores cuddling and curling into people and pups."
     },
     {
         "name": "Zeus",

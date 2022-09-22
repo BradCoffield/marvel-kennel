@@ -76,9 +76,7 @@ export default function Danny() {
         <Card>
           <img src="\assets\danny\Danny4.jpg" alt="" />
         </Card>
-        <Card>
-          <img src="\assets\danny\Danny5.jpg" alt="" />
-        </Card>
+
         <Card>
           <img src="\assets\danny\Danny6.jpg" alt="" />
         </Card>

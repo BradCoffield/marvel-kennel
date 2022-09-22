@@ -99,6 +99,10 @@ export default function SadieAndBruno() {
                 <li>
                   <span className="bold">Color</span>: Brown
                 </li>
+                <li>
+                  <span className="bold">Owner Contact Information</span>: Glenn
+                  Ruckdashel <a href="mailto:glenn@therpack.net">glenn@therpack.net</a>
+                </li>
               </ul>
             </div>
           </Card>

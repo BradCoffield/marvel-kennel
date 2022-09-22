@@ -17,8 +17,8 @@ export default function PuppySupportSquad() {
         <p>
           This is a family endeavor. Meet the crew: Rebecca (mom), Zach (Marvel
           Kennel owner), Preston (Assistant Manager), Hana (Birth Supervisor and
-          Growth Monitor), and Julian (Logistics, Strategic Play Planning,
-          Entertainment, and Sanitation Leader).
+          Growth Monitor), and Julian (Logistic and Strategic Play Planner,
+          Entertainer, and Sanitation Leader).
         </p>
         <p>
           <Pic src="/assets/TheSquad5.jpg" alt=""></Pic>
